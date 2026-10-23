@@ -1,0 +1,32 @@
+data:
+  manifest_dir:  manifests/ctrl_k200_ipc20
+
+model:
+  backbone:   densenet121
+  pretrained: true
+  dropout:    0.4
+
+training:
+  epochs:           80
+  batch_size:       16
+  num_workers:      4
+  learning_rate:    0.0003
+  weight_decay:     0.001
+  scheduler:        cosine
+  label_smoothing:  0.1
+  mixed_precision:  true
+  amp_dtype:        bfloat16
+
+augmentation:
+  image_size: 224
+  color_jitter:
+    brightness: 0.5
+    contrast:   0.5
+    saturation: 0.5
+    hue:        0.15
+  random_resized_crop_scale: [0.4, 1.0]
+  random_erasing_prob: 0.3
+  random_erasing_scale: [0.02, 0.25]
+
+output:
+  run_dir: runs

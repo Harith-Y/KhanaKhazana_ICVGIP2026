@@ -1,0 +1,11 @@
+# the image corpus is not redistributed
+data/proto_crawled_all/
+manifests/
+runs/
+wandb/
+logs/
+*.pth
+*.npy
+__pycache__/
+*.pyc
+.env

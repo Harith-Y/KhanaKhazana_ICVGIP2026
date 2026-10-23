@@ -1,0 +1,3674 @@
+[
+  {
+    "slug": "palak-paneer",
+    "popularity_score": 5,
+    "matched_name": "palak paneer",
+    "evidence": "exact/canonical match to 'palak paneer' across source(s): general_popular, north_indian_popular, popular_paneer, punjabi, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "channa-masala",
+    "popularity_score": 4,
+    "matched_name": "chana masala",
+    "evidence": "exact/canonical match to 'chana masala' across source(s): general_popular, north_indian_popular, uk_curry_favorites, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "gulab-jamun",
+    "popularity_score": 4,
+    "matched_name": "gulab jamun",
+    "evidence": "exact/canonical match to 'gulab jamun' across source(s): sweets_overview, swiggy_zomato_most_ordered, wikipedia_indian_dishes, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "pav-bhaji",
+    "popularity_score": 4,
+    "matched_name": "pav bhaji",
+    "evidence": "exact/canonical match to 'pav bhaji' across source(s): breakfast, swiggy_zomato_most_ordered, tasteatlas_top100_india, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "phirni",
+    "popularity_score": 4,
+    "matched_name": "phirni",
+    "evidence": "exact/canonical match to 'phirni' across source(s): andhra_telangana_hyderabadi, sweets_overview, wikipedia_indian_dishes, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "samosa",
+    "popularity_score": 4,
+    "matched_name": "samosa",
+    "evidence": "exact/canonical match to 'samosa' across source(s): general_popular, street_food, swiggy_zomato_most_ordered, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "vada-pav",
+    "popularity_score": 4,
+    "matched_name": "vada pav",
+    "evidence": "exact/canonical match to 'vada pav' across source(s): breakfast, iconic_regional_state, maharashtrian, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "aloo-gobi-paratha",
+    "popularity_score": 3,
+    "matched_name": "aloo paratha",
+    "evidence": "qualified variant of 'aloo paratha' found in source(s): breakfast, general_popular, punjabi, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "basundi",
+    "popularity_score": 3,
+    "matched_name": "basundi",
+    "evidence": "exact/canonical match to 'basundi' across source(s): gujarati, wikipedia_indian_dishes, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "cheesy-pav-bhaji",
+    "popularity_score": 3,
+    "matched_name": "pav bhaji",
+    "evidence": "qualified variant of 'pav bhaji' found in source(s): breakfast, swiggy_zomato_most_ordered, tasteatlas_top100_india, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "imarti",
+    "popularity_score": 3,
+    "matched_name": "imarti",
+    "evidence": "exact/canonical match to 'imarti' across source(s): sweets_overview, wikipedia_indian_dishes, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "korma",
+    "popularity_score": 3,
+    "matched_name": "korma",
+    "evidence": "exact/canonical match to 'korma' across source(s): awadhi_mughlai, tasteatlas_top100_india, uk_curry_favorites"
+  },
+  {
+    "slug": "masala-chai",
+    "popularity_score": 3,
+    "matched_name": "masala chai",
+    "evidence": "exact/canonical match to 'masala chai' across source(s): beverages, breakfast, street_food"
+  },
+  {
+    "slug": "mohanthal",
+    "popularity_score": 3,
+    "matched_name": "mohanthal",
+    "evidence": "exact/canonical match to 'mohanthal' across source(s): gujarati, wikipedia_indian_dishes, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "momo",
+    "popularity_score": 3,
+    "matched_name": "momo",
+    "evidence": "exact/canonical match to 'momo' across source(s): iconic_regional_state, northeast_india, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "mutton-rogan-josh",
+    "popularity_score": 3,
+    "matched_name": "rogan josh",
+    "evidence": "qualified variant of 'rogan josh' found in source(s): kashmiri_wazwan, north_indian_popular, tasteatlas_top100_india, uk_curry_favorites"
+  },
+  {
+    "slug": "pani-puri",
+    "popularity_score": 3,
+    "matched_name": "pani puri",
+    "evidence": "exact/canonical match to 'pani puri' across source(s): chaat, street_food, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "payasam",
+    "popularity_score": 3,
+    "matched_name": "payasam",
+    "evidence": "exact/canonical match to 'payasam' across source(s): south_indian_popular, sweets_overview, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "poha",
+    "popularity_score": 3,
+    "matched_name": "poha",
+    "evidence": "exact/canonical match to 'poha' across source(s): breakfast, street_food, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "rasgulla",
+    "popularity_score": 3,
+    "matched_name": "rasgulla",
+    "evidence": "exact/canonical match to 'rasgulla' across source(s): bengali, sweets_overview, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "sambar",
+    "popularity_score": 3,
+    "matched_name": "sambar",
+    "evidence": "exact/canonical match to 'sambar' across source(s): breakfast, south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "sarson-ka-saag",
+    "popularity_score": 3,
+    "matched_name": "sarson ka saag",
+    "evidence": "exact/canonical match to 'sarson ka saag' across source(s): iconic_regional_state, punjabi, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "aloo-paratha",
+    "popularity_score": 2,
+    "matched_name": "aloo paratha",
+    "evidence": "exact/canonical match to 'aloo paratha' across source(s): breakfast, punjabi"
+  },
+  {
+    "slug": "aloo-tikki",
+    "popularity_score": 2,
+    "matched_name": "aloo tikki",
+    "evidence": "exact/canonical match to 'aloo tikki' across source(s): street_food, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "bhakri",
+    "popularity_score": 2,
+    "matched_name": "bhakri",
+    "evidence": "exact/canonical match to 'bhakri' across source(s): breads, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "cheese-dosa",
+    "popularity_score": 2,
+    "matched_name": "dosa",
+    "evidence": "variant of generic popular dish family 'dosa' (weak signal) in source(s): andhra_telangana_hyderabadi, breakfast, cnn_50_best, iconic_regional_state, south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "chicken-65",
+    "popularity_score": 2,
+    "matched_name": "chicken 65",
+    "evidence": "exact/canonical match to 'chicken 65' across source(s): south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "chingri-malai-curry",
+    "popularity_score": 2,
+    "matched_name": "chingri malai curry",
+    "evidence": "exact/canonical match to 'chingri malai curry' across source(s): tasteatlas_top100_india, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "dal",
+    "popularity_score": 2,
+    "matched_name": "dal",
+    "evidence": "exact/canonical match to 'dal' across source(s): tasteatlas_top100_india, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "double-ka-meetha",
+    "popularity_score": 2,
+    "matched_name": "double ka meetha",
+    "evidence": "exact/canonical match to 'double ka meetha' across source(s): wikipedia_indian_dishes, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "dum-aloo",
+    "popularity_score": 2,
+    "matched_name": "dum aloo",
+    "evidence": "exact/canonical match to 'dum aloo' across source(s): bengali, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "eromba",
+    "popularity_score": 2,
+    "matched_name": "eromba",
+    "evidence": "exact/canonical match to 'eromba' across source(s): iconic_regional_state, northeast_india"
+  },
+  {
+    "slug": "galho",
+    "popularity_score": 2,
+    "matched_name": "galho",
+    "evidence": "exact/canonical match to 'galho' across source(s): northeast_india, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "gobi-paratha",
+    "popularity_score": 2,
+    "matched_name": "gobi paratha",
+    "evidence": "exact/canonical match to 'gobi paratha' across source(s): breakfast, punjabi"
+  },
+  {
+    "slug": "haleem",
+    "popularity_score": 2,
+    "matched_name": "haleem",
+    "evidence": "exact/canonical match to 'haleem' across source(s): andhra_telangana_hyderabadi, swiggy_zomato_most_ordered"
+  },
+  {
+    "slug": "idiyappam",
+    "popularity_score": 2,
+    "matched_name": "idiyappam",
+    "evidence": "exact/canonical match to 'idiyappam' across source(s): kerala, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "kadai-paneer",
+    "popularity_score": 2,
+    "matched_name": "kadai paneer",
+    "evidence": "exact/canonical match to 'kadai paneer' across source(s): popular_paneer, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "kala-chana-dosa",
+    "popularity_score": 2,
+    "matched_name": "dosa",
+    "evidence": "variant of generic popular dish family 'dosa' (weak signal) in source(s): andhra_telangana_hyderabadi, breakfast, cnn_50_best, iconic_regional_state, south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "khakhra",
+    "popularity_score": 2,
+    "matched_name": "khakhra",
+    "evidence": "exact/canonical match to 'khakhra' across source(s): gujarati, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "khichu",
+    "popularity_score": 2,
+    "matched_name": "khichu",
+    "evidence": "exact/canonical match to 'khichu' across source(s): gujarati, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "kulfi",
+    "popularity_score": 2,
+    "matched_name": "kulfi",
+    "evidence": "exact/canonical match to 'kulfi' across source(s): awadhi_mughlai, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "laddu",
+    "popularity_score": 2,
+    "matched_name": "laddu",
+    "evidence": "exact/canonical match to 'laddu' across source(s): wikipedia_indian_dishes, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "neer-dosa",
+    "popularity_score": 2,
+    "matched_name": "dosa",
+    "evidence": "variant of generic popular dish family 'dosa' (weak signal) in source(s): andhra_telangana_hyderabadi, breakfast, cnn_50_best, iconic_regional_state, south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "oats-dosa",
+    "popularity_score": 2,
+    "matched_name": "dosa",
+    "evidence": "variant of generic popular dish family 'dosa' (weak signal) in source(s): andhra_telangana_hyderabadi, breakfast, cnn_50_best, iconic_regional_state, south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "palak-dosa",
+    "popularity_score": 2,
+    "matched_name": "dosa",
+    "evidence": "variant of generic popular dish family 'dosa' (weak signal) in source(s): andhra_telangana_hyderabadi, breakfast, cnn_50_best, iconic_regional_state, south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "paneer-butter-masala",
+    "popularity_score": 2,
+    "matched_name": "paneer butter masala",
+    "evidence": "exact/canonical match to 'paneer butter masala' across source(s): popular_paneer, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "paneer-tikka-masala",
+    "popularity_score": 2,
+    "matched_name": "paneer tikka masala",
+    "evidence": "exact/canonical match to 'paneer tikka masala' across source(s): punjabi, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "pantua",
+    "popularity_score": 2,
+    "matched_name": "pantua",
+    "evidence": "exact/canonical match to 'pantua' across source(s): wikipedia_indian_dishes, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "puttu",
+    "popularity_score": 2,
+    "matched_name": "puttu",
+    "evidence": "exact/canonical match to 'puttu' across source(s): kerala, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "rajma",
+    "popularity_score": 2,
+    "matched_name": "rajma",
+    "evidence": "exact/canonical match to 'rajma' across source(s): punjabi, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "rasam",
+    "popularity_score": 2,
+    "matched_name": "rasam",
+    "evidence": "exact/canonical match to 'rasam' across source(s): south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "rasmalai",
+    "popularity_score": 2,
+    "matched_name": "rasmalai",
+    "evidence": "exact/canonical match to 'rasmalai' across source(s): bengali, swiggy_zomato_most_ordered"
+  },
+  {
+    "slug": "set-dosa",
+    "popularity_score": 2,
+    "matched_name": "dosa",
+    "evidence": "variant of generic popular dish family 'dosa' (weak signal) in source(s): andhra_telangana_hyderabadi, breakfast, cnn_50_best, iconic_regional_state, south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "singju",
+    "popularity_score": 2,
+    "matched_name": "singju",
+    "evidence": "exact/canonical match to 'singju' across source(s): iconic_regional_state, northeast_india"
+  },
+  {
+    "slug": "tikka",
+    "popularity_score": 2,
+    "matched_name": "tikka",
+    "evidence": "exact/canonical match to 'tikka' across source(s): general_popular, tasteatlas_top100_india"
+  },
+  {
+    "slug": "tips-dosa",
+    "popularity_score": 2,
+    "matched_name": "dosa",
+    "evidence": "variant of generic popular dish family 'dosa' (weak signal) in source(s): andhra_telangana_hyderabadi, breakfast, cnn_50_best, iconic_regional_state, south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "undhiyu",
+    "popularity_score": 2,
+    "matched_name": "undhiyu",
+    "evidence": "exact/canonical match to 'undhiyu' across source(s): gujarati, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "uttapam",
+    "popularity_score": 2,
+    "matched_name": "uttapam",
+    "evidence": "exact/canonical match to 'uttapam' across source(s): south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "wheat-dosa",
+    "popularity_score": 2,
+    "matched_name": "dosa",
+    "evidence": "variant of generic popular dish family 'dosa' (weak signal) in source(s): andhra_telangana_hyderabadi, breakfast, cnn_50_best, iconic_regional_state, south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "aam-panna",
+    "popularity_score": 1,
+    "matched_name": "aam panna",
+    "evidence": "exact/canonical match to 'aam panna' across source(s): beverages"
+  },
+  {
+    "slug": "achappam",
+    "popularity_score": 1,
+    "matched_name": "achappam",
+    "evidence": "exact/canonical match to 'achappam' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "ada",
+    "popularity_score": 1,
+    "matched_name": "ada",
+    "evidence": "exact/canonical match to 'ada' across source(s): wikipedia_indian_sweets"
+  },
+  {
+    "slug": "ada-pradhaman",
+    "popularity_score": 1,
+    "matched_name": "ada pradhaman",
+    "evidence": "exact/canonical match to 'ada pradhaman' across source(s): wikipedia_indian_sweets"
+  },
+  {
+    "slug": "adhirasam",
+    "popularity_score": 1,
+    "matched_name": "adhirasam",
+    "evidence": "exact/canonical match to 'adhirasam' across source(s): wikipedia_indian_sweets"
+  },
+  {
+    "slug": "adrak-chai",
+    "popularity_score": 1,
+    "matched_name": "ginger chai",
+    "evidence": "exact/canonical match to 'ginger chai' across source(s): breakfast"
+  },
+  {
+    "slug": "akhni",
+    "popularity_score": 1,
+    "matched_name": "akhuni",
+    "evidence": "exact/canonical match to 'akhuni' across source(s): northeast_india"
+  },
+  {
+    "slug": "akhuni",
+    "popularity_score": 1,
+    "matched_name": "akhuni",
+    "evidence": "exact/canonical match to 'akhuni' across source(s): northeast_india"
+  },
+  {
+    "slug": "aloo-chaat",
+    "popularity_score": 1,
+    "matched_name": "aloo chaat",
+    "evidence": "exact/canonical match to 'aloo chaat' across source(s): chaat"
+  },
+  {
+    "slug": "aloo-cheese-paratha",
+    "popularity_score": 1,
+    "matched_name": "aloo paratha",
+    "evidence": "qualified variant of 'aloo paratha' found in source(s): breakfast, punjabi"
+  },
+  {
+    "slug": "aloo-kulcha-on-tawa",
+    "popularity_score": 1,
+    "matched_name": "aloo kulcha",
+    "evidence": "qualified variant of 'aloo kulcha' found in source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "aloo-matar-chaat",
+    "popularity_score": 1,
+    "matched_name": "aloo chaat",
+    "evidence": "qualified variant of 'aloo chaat' found in source(s): chaat, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "aloo-matar-pulao",
+    "popularity_score": 1,
+    "matched_name": "aloo matar",
+    "evidence": "qualified variant of 'aloo matar' found in source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "aloo-methi",
+    "popularity_score": 1,
+    "matched_name": "aloo methi",
+    "evidence": "exact/canonical match to 'aloo methi' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "aloo-paneer-paratha",
+    "popularity_score": 1,
+    "matched_name": "paneer paratha",
+    "evidence": "qualified variant of 'paneer paratha' found in source(s): breakfast, punjabi"
+  },
+  {
+    "slug": "aloo-posto",
+    "popularity_score": 1,
+    "matched_name": "aloo posto",
+    "evidence": "exact/canonical match to 'aloo posto' across source(s): bengali"
+  },
+  {
+    "slug": "aloo-puri",
+    "popularity_score": 1,
+    "matched_name": "aloo puri",
+    "evidence": "exact/canonical match to 'aloo puri' across source(s): breakfast"
+  },
+  {
+    "slug": "amritsari-paneer-bhurji",
+    "popularity_score": 1,
+    "matched_name": "paneer bhurji",
+    "evidence": "qualified variant of 'paneer bhurji' found in source(s): popular_paneer"
+  },
+  {
+    "slug": "anarsa",
+    "popularity_score": 1,
+    "matched_name": "anarsa",
+    "evidence": "exact/canonical match to 'anarsa' across source(s): wikipedia_indian_sweets"
+  },
+  {
+    "slug": "appam-veg-stew",
+    "popularity_score": 1,
+    "matched_name": "appam",
+    "evidence": "variant of generic popular dish family 'appam' (weak signal) in source(s): kerala, south_indian_popular"
+  },
+  {
+    "slug": "badam-kheer",
+    "popularity_score": 1,
+    "matched_name": "kheer",
+    "evidence": "variant of generic popular dish family 'kheer' (weak signal) in source(s): sweets_overview, wikipedia_indian_dishes, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "badam-puri",
+    "popularity_score": 1,
+    "matched_name": "puri",
+    "evidence": "variant of generic popular dish family 'puri' (weak signal) in source(s): breads"
+  },
+  {
+    "slug": "banana-chips",
+    "popularity_score": 1,
+    "matched_name": "banana chips",
+    "evidence": "exact/canonical match to 'banana chips' across source(s): kerala"
+  },
+  {
+    "slug": "bandar-laddu",
+    "popularity_score": 1,
+    "matched_name": "bandar laddu",
+    "evidence": "exact/canonical match to 'bandar laddu' across source(s): wikipedia_indian_sweets"
+  },
+  {
+    "slug": "batata-vada",
+    "popularity_score": 1,
+    "matched_name": "vada",
+    "evidence": "variant of generic popular dish family 'vada' (weak signal) in source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "besan-dhokla",
+    "popularity_score": 1,
+    "matched_name": "dhokla",
+    "evidence": "variant of generic popular dish family 'dhokla' (weak signal) in source(s): gujarati, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "besan-peda",
+    "popularity_score": 1,
+    "matched_name": "peda",
+    "evidence": "variant of generic popular dish family 'peda' (weak signal) in source(s): sweets_overview, wikipedia_indian_dishes, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "bhaji",
+    "popularity_score": 1,
+    "matched_name": "bhaji",
+    "evidence": "exact/canonical match to 'bhaji' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "bhindi-masala",
+    "popularity_score": 1,
+    "matched_name": "bhindi masala",
+    "evidence": "exact/canonical match to 'bhindi masala' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "bisi-bele-bath",
+    "popularity_score": 1,
+    "matched_name": "bisi bele bath",
+    "evidence": "exact/canonical match to 'bisi bele bath' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "bombay-halwa",
+    "popularity_score": 1,
+    "matched_name": "halwa",
+    "evidence": "variant of generic popular dish family 'halwa' (weak signal) in source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "bonda",
+    "popularity_score": 1,
+    "matched_name": "bonda",
+    "evidence": "exact/canonical match to 'bonda' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "boondi-laddoo",
+    "popularity_score": 1,
+    "matched_name": "boondi",
+    "evidence": "variant of generic popular dish family 'boondi' (weak signal) in source(s): wikipedia_indian_sweets"
+  },
+  {
+    "slug": "bora-saul",
+    "popularity_score": 1,
+    "matched_name": "bora sawul",
+    "evidence": "exact/canonical match to 'bora sawul' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "bread-dhokla",
+    "popularity_score": 1,
+    "matched_name": "dhokla",
+    "evidence": "variant of generic popular dish family 'dhokla' (weak signal) in source(s): gujarati, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "bread-halwa",
+    "popularity_score": 1,
+    "matched_name": "halwa",
+    "evidence": "variant of generic popular dish family 'halwa' (weak signal) in source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "bread-pakora",
+    "popularity_score": 1,
+    "matched_name": "bread pakora",
+    "evidence": "exact/canonical match to 'bread pakora' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "bread-upma",
+    "popularity_score": 1,
+    "matched_name": "upma",
+    "evidence": "variant of generic popular dish family 'upma' (weak signal) in source(s): breakfast"
+  },
+  {
+    "slug": "brinjal-sambar",
+    "popularity_score": 1,
+    "matched_name": "sambar",
+    "evidence": "variant of generic popular dish family 'sambar' (weak signal) in source(s): breakfast, south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "burfi",
+    "popularity_score": 1,
+    "matched_name": "burfi",
+    "evidence": "exact/canonical match to 'burfi' across source(s): sweets_overview"
+  },
+  {
+    "slug": "buttermilk-vada",
+    "popularity_score": 1,
+    "matched_name": "vada",
+    "evidence": "variant of generic popular dish family 'vada' (weak signal) in source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "chaat",
+    "popularity_score": 1,
+    "matched_name": "chaat",
+    "evidence": "exact/canonical match to 'chaat' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "chaat-masala",
+    "popularity_score": 1,
+    "matched_name": "chaat",
+    "evidence": "variant of generic popular dish family 'chaat' (weak signal) in source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "chana-chaat",
+    "popularity_score": 1,
+    "matched_name": "chaat",
+    "evidence": "variant of generic popular dish family 'chaat' (weak signal) in source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "chana-dal",
+    "popularity_score": 1,
+    "matched_name": "chana dal biryani",
+    "evidence": "qualified variant of 'chana dal biryani' found in source(s): biryani_rice"
+  },
+  {
+    "slug": "chana-dal-tadka",
+    "popularity_score": 1,
+    "matched_name": "dal tadka",
+    "evidence": "qualified variant of 'dal tadka' found in source(s): tasteatlas_top100_india, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "chicken-chettinad",
+    "popularity_score": 1,
+    "matched_name": "chicken chettinad",
+    "evidence": "exact/canonical match to 'chicken chettinad' across source(s): iconic_regional_state"
+  },
+  {
+    "slug": "chicken-kathi-roll-chicken-frankie",
+    "popularity_score": 1,
+    "matched_name": "kathi roll",
+    "evidence": "qualified variant of 'kathi roll' found in source(s): street_food"
+  },
+  {
+    "slug": "chicken-korma",
+    "popularity_score": 1,
+    "matched_name": "korma",
+    "evidence": "variant of generic popular dish family 'korma' (weak signal) in source(s): awadhi_mughlai, tasteatlas_top100_india, uk_curry_favorites"
+  },
+  {
+    "slug": "chicken-razala",
+    "popularity_score": 1,
+    "matched_name": "chicken rezala",
+    "evidence": "exact/canonical match to 'chicken rezala' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "chilli-chicken",
+    "popularity_score": 1,
+    "matched_name": "chilli chicken",
+    "evidence": "exact/canonical match to 'chilli chicken' across source(s): indo_chinese"
+  },
+  {
+    "slug": "chilli-garlic-fried-rice",
+    "popularity_score": 1,
+    "matched_name": "fried rice",
+    "evidence": "qualified variant of 'fried rice' found in source(s): indo_chinese"
+  },
+  {
+    "slug": "chilli-paneer",
+    "popularity_score": 1,
+    "matched_name": "chilli paneer",
+    "evidence": "exact/canonical match to 'chilli paneer' across source(s): indo_chinese"
+  },
+  {
+    "slug": "chitranna",
+    "popularity_score": 1,
+    "matched_name": "chitranna",
+    "evidence": "exact/canonical match to 'chitranna' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "chutney",
+    "popularity_score": 1,
+    "matched_name": "chutney",
+    "evidence": "exact/canonical match to 'chutney' across source(s): breakfast"
+  },
+  {
+    "slug": "coconut-burfi",
+    "popularity_score": 1,
+    "matched_name": "burfi",
+    "evidence": "variant of generic popular dish family 'burfi' (weak signal) in source(s): sweets_overview"
+  },
+  {
+    "slug": "coconut-chutney",
+    "popularity_score": 1,
+    "matched_name": "coconut chutney",
+    "evidence": "exact/canonical match to 'coconut chutney' across source(s): south_indian_popular"
+  },
+  {
+    "slug": "coconut-laddu",
+    "popularity_score": 1,
+    "matched_name": "laddu",
+    "evidence": "variant of generic popular dish family 'laddu' (weak signal) in source(s): wikipedia_indian_dishes, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "corn-chaat",
+    "popularity_score": 1,
+    "matched_name": "chaat",
+    "evidence": "variant of generic popular dish family 'chaat' (weak signal) in source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "crab-curry",
+    "popularity_score": 1,
+    "matched_name": "crab curry",
+    "evidence": "exact/canonical match to 'crab curry' across source(s): goan"
+  },
+  {
+    "slug": "cucumber-idli",
+    "popularity_score": 1,
+    "matched_name": "idli",
+    "evidence": "variant of generic popular dish family 'idli' (weak signal) in source(s): breakfast, south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "curd-rasam",
+    "popularity_score": 1,
+    "matched_name": "rasam",
+    "evidence": "variant of generic popular dish family 'rasam' (weak signal) in source(s): south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "daal-puri",
+    "popularity_score": 1,
+    "matched_name": "puri",
+    "evidence": "variant of generic popular dish family 'puri' (weak signal) in source(s): breads"
+  },
+  {
+    "slug": "dal-baati-churma",
+    "popularity_score": 1,
+    "matched_name": "dal",
+    "evidence": "variant of generic popular dish family 'dal' (weak signal) in source(s): tasteatlas_top100_india, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "dal-bhat",
+    "popularity_score": 1,
+    "matched_name": "dal",
+    "evidence": "variant of generic popular dish family 'dal' (weak signal) in source(s): tasteatlas_top100_india, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "dal-biji",
+    "popularity_score": 1,
+    "matched_name": "dal",
+    "evidence": "variant of generic popular dish family 'dal' (weak signal) in source(s): tasteatlas_top100_india, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "dal-chawal-chokka",
+    "popularity_score": 1,
+    "matched_name": "dal",
+    "evidence": "variant of generic popular dish family 'dal' (weak signal) in source(s): tasteatlas_top100_india, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "dal-pumpkin",
+    "popularity_score": 1,
+    "matched_name": "dal",
+    "evidence": "variant of generic popular dish family 'dal' (weak signal) in source(s): tasteatlas_top100_india, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "dal-vada",
+    "popularity_score": 1,
+    "matched_name": "vada",
+    "evidence": "variant of generic popular dish family 'vada' (weak signal) in source(s): tasteatlas_top100_india, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "dhansak",
+    "popularity_score": 1,
+    "matched_name": "dhansak",
+    "evidence": "exact/canonical match to 'dhansak' across source(s): uk_curry_favorites"
+  },
+  {
+    "slug": "dry-fruits-laddu",
+    "popularity_score": 1,
+    "matched_name": "laddu",
+    "evidence": "variant of generic popular dish family 'laddu' (weak signal) in source(s): wikipedia_indian_dishes, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "egg-biryani",
+    "popularity_score": 1,
+    "matched_name": "biryani",
+    "evidence": "variant of generic popular dish family 'biryani' (weak signal) in source(s): awadhi_mughlai, north_indian_popular, swiggy_zomato_most_ordered, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "filter-coffee",
+    "popularity_score": 1,
+    "matched_name": "filter coffee",
+    "evidence": "exact/canonical match to 'filter coffee' across source(s): south_indian_popular"
+  },
+  {
+    "slug": "fish-curry",
+    "popularity_score": 1,
+    "matched_name": "goan fish curry",
+    "evidence": "qualified variant of 'goan fish curry' found in source(s): goan"
+  },
+  {
+    "slug": "fried-rice",
+    "popularity_score": 1,
+    "matched_name": "fried rice",
+    "evidence": "exact/canonical match to 'fried rice' across source(s): indo_chinese"
+  },
+  {
+    "slug": "galouti-kebab",
+    "popularity_score": 1,
+    "matched_name": "galouti kebab",
+    "evidence": "exact/canonical match to 'galouti kebab' across source(s): awadhi_mughlai"
+  },
+  {
+    "slug": "garlic-naan",
+    "popularity_score": 1,
+    "matched_name": "garlic naan",
+    "evidence": "exact/canonical match to 'garlic naan' across source(s): general_popular"
+  },
+  {
+    "slug": "gavvalu",
+    "popularity_score": 1,
+    "matched_name": "gavvalu",
+    "evidence": "exact/canonical match to 'gavvalu' across source(s): wikipedia_indian_sweets"
+  },
+  {
+    "slug": "ghari",
+    "popularity_score": 1,
+    "matched_name": "ghari",
+    "evidence": "exact/canonical match to 'ghari' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "goli-baje",
+    "popularity_score": 1,
+    "matched_name": "goli bajje",
+    "evidence": "exact/canonical match to 'goli bajje' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "halwa",
+    "popularity_score": 1,
+    "matched_name": "halwa",
+    "evidence": "exact/canonical match to 'halwa' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "hare-matar-bonda",
+    "popularity_score": 1,
+    "matched_name": "bonda",
+    "evidence": "variant of generic popular dish family 'bonda' (weak signal) in source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "idli-fry",
+    "popularity_score": 1,
+    "matched_name": "idli",
+    "evidence": "variant of generic popular dish family 'idli' (weak signal) in source(s): breakfast, south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "idli-podi",
+    "popularity_score": 1,
+    "matched_name": "idli",
+    "evidence": "variant of generic popular dish family 'idli' (weak signal) in source(s): breakfast, south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "jackfruit-idli",
+    "popularity_score": 1,
+    "matched_name": "idli",
+    "evidence": "variant of generic popular dish family 'idli' (weak signal) in source(s): breakfast, south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "jalfrezi",
+    "popularity_score": 1,
+    "matched_name": "jalfrezi",
+    "evidence": "exact/canonical match to 'jalfrezi' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "jeera-aloo",
+    "popularity_score": 1,
+    "matched_name": "jeera aloo",
+    "evidence": "exact/canonical match to 'jeera aloo' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "jowar-roti",
+    "popularity_score": 1,
+    "matched_name": "roti",
+    "evidence": "variant of generic popular dish family 'roti' (weak signal) in source(s): breads"
+  },
+  {
+    "slug": "kachori",
+    "popularity_score": 1,
+    "matched_name": "kachori",
+    "evidence": "exact/canonical match to 'kachori' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "kaddu-ki-kheer",
+    "popularity_score": 1,
+    "matched_name": "kheer",
+    "evidence": "variant of generic popular dish family 'kheer' (weak signal) in source(s): sweets_overview, wikipedia_indian_dishes, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "kansar",
+    "popularity_score": 1,
+    "matched_name": "kansar",
+    "evidence": "exact/canonical match to 'kansar' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "karela-bharta",
+    "popularity_score": 1,
+    "matched_name": "karela bharta",
+    "evidence": "exact/canonical match to 'karela bharta' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "kati-roll",
+    "popularity_score": 1,
+    "matched_name": "kathi roll",
+    "evidence": "exact/canonical match to 'kathi roll' across source(s): street_food"
+  },
+  {
+    "slug": "keema",
+    "popularity_score": 1,
+    "matched_name": "keema",
+    "evidence": "exact/canonical match to 'keema' across source(s): tasteatlas_top100_india"
+  },
+  {
+    "slug": "keema-matar",
+    "popularity_score": 1,
+    "matched_name": "keema matar",
+    "evidence": "exact/canonical match to 'keema matar' across source(s): punjabi"
+  },
+  {
+    "slug": "ker-sangri",
+    "popularity_score": 1,
+    "matched_name": "ker sangri",
+    "evidence": "exact/canonical match to 'ker sangri' across source(s): rajasthani"
+  },
+  {
+    "slug": "kerala-beef-fry",
+    "popularity_score": 1,
+    "matched_name": "kerala beef fry",
+    "evidence": "exact/canonical match to 'kerala beef fry' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "khichdi",
+    "popularity_score": 1,
+    "matched_name": "khichdi",
+    "evidence": "exact/canonical match to 'khichdi' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "khiramohana",
+    "popularity_score": 1,
+    "matched_name": "khirmohan",
+    "evidence": "exact/canonical match to 'khirmohan' across source(s): wikipedia_indian_sweets"
+  },
+  {
+    "slug": "kodubale",
+    "popularity_score": 1,
+    "matched_name": "kodubale",
+    "evidence": "exact/canonical match to 'kodubale' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "kottu",
+    "popularity_score": 1,
+    "matched_name": "koottu",
+    "evidence": "exact/canonical match to 'koottu' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "kozhukkatta",
+    "popularity_score": 1,
+    "matched_name": "kozhukkattai",
+    "evidence": "exact/canonical match to 'kozhukkattai' across source(s): wikipedia_indian_sweets"
+  },
+  {
+    "slug": "kulcha",
+    "popularity_score": 1,
+    "matched_name": "kulcha",
+    "evidence": "exact/canonical match to 'kulcha' across source(s): breads"
+  },
+  {
+    "slug": "ledikeni",
+    "popularity_score": 1,
+    "matched_name": "ledikeni",
+    "evidence": "exact/canonical match to 'ledikeni' across source(s): wikipedia_indian_sweets"
+  },
+  {
+    "slug": "lemon-rice",
+    "popularity_score": 1,
+    "matched_name": "lemon rice",
+    "evidence": "exact/canonical match to 'lemon rice' across source(s): biryani_rice"
+  },
+  {
+    "slug": "lilva-kachori",
+    "popularity_score": 1,
+    "matched_name": "lilva kachori",
+    "evidence": "exact/canonical match to 'lilva kachori' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "maacher-jhol",
+    "popularity_score": 1,
+    "matched_name": "machher jhol",
+    "evidence": "exact/canonical match to 'machher jhol' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "madras-curry",
+    "popularity_score": 1,
+    "matched_name": "madras curry",
+    "evidence": "exact/canonical match to 'madras curry' across source(s): tasteatlas_top100_india"
+  },
+  {
+    "slug": "makka-poha",
+    "popularity_score": 1,
+    "matched_name": "poha",
+    "evidence": "variant of generic popular dish family 'poha' (weak signal) in source(s): breakfast, street_food, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "malabar-biryani",
+    "popularity_score": 1,
+    "matched_name": "malabar biryani",
+    "evidence": "exact/canonical match to 'malabar biryani' across source(s): biryani_rice"
+  },
+  {
+    "slug": "manda-roti",
+    "popularity_score": 1,
+    "matched_name": "roti",
+    "evidence": "variant of generic popular dish family 'roti' (weak signal) in source(s): breads"
+  },
+  {
+    "slug": "mango-halwa",
+    "popularity_score": 1,
+    "matched_name": "halwa",
+    "evidence": "variant of generic popular dish family 'halwa' (weak signal) in source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "mango-lassi",
+    "popularity_score": 1,
+    "matched_name": "mango lassi",
+    "evidence": "exact/canonical match to 'mango lassi' across source(s): general_popular"
+  },
+  {
+    "slug": "mango-rasam",
+    "popularity_score": 1,
+    "matched_name": "rasam",
+    "evidence": "variant of generic popular dish family 'rasam' (weak signal) in source(s): south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "masala-omelette",
+    "popularity_score": 1,
+    "matched_name": "masala omelette",
+    "evidence": "exact/canonical match to 'masala omelette' across source(s): south_indian_popular"
+  },
+  {
+    "slug": "masoor-dal",
+    "popularity_score": 1,
+    "matched_name": "dal",
+    "evidence": "variant of generic popular dish family 'dal' (weak signal) in source(s): tasteatlas_top100_india, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "matar-kachori",
+    "popularity_score": 1,
+    "matched_name": "kachori",
+    "evidence": "variant of generic popular dish family 'kachori' (weak signal) in source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "matar-mushroom",
+    "popularity_score": 1,
+    "matched_name": "mushroom matar",
+    "evidence": "exact/canonical match to 'mushroom matar' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "methi-paratha",
+    "popularity_score": 1,
+    "matched_name": "paratha",
+    "evidence": "variant of generic popular dish family 'paratha' (weak signal) in source(s): breads, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "mihidana",
+    "popularity_score": 1,
+    "matched_name": "mihidana",
+    "evidence": "exact/canonical match to 'mihidana' across source(s): wikipedia_indian_sweets"
+  },
+  {
+    "slug": "milk-burfi",
+    "popularity_score": 1,
+    "matched_name": "burfi",
+    "evidence": "variant of generic popular dish family 'burfi' (weak signal) in source(s): sweets_overview"
+  },
+  {
+    "slug": "milk-peda",
+    "popularity_score": 1,
+    "matched_name": "peda",
+    "evidence": "variant of generic popular dish family 'peda' (weak signal) in source(s): sweets_overview, wikipedia_indian_dishes, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "missi-roti",
+    "popularity_score": 1,
+    "matched_name": "missi roti",
+    "evidence": "exact/canonical match to 'missi roti' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "moong-dal",
+    "popularity_score": 1,
+    "matched_name": "moong dal chilla",
+    "evidence": "qualified variant of 'moong dal chilla' found in source(s): breakfast"
+  },
+  {
+    "slug": "moong-dal-pakoda",
+    "popularity_score": 1,
+    "matched_name": "dal",
+    "evidence": "variant of generic popular dish family 'dal' (weak signal) in source(s): tasteatlas_top100_india, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "murgh-musallam",
+    "popularity_score": 1,
+    "matched_name": "murgh musallam",
+    "evidence": "exact/canonical match to 'murgh musallam' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "muthiya",
+    "popularity_score": 1,
+    "matched_name": "muthiya",
+    "evidence": "exact/canonical match to 'muthiya' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "mutton-biryani",
+    "popularity_score": 1,
+    "matched_name": "biryani",
+    "evidence": "variant of generic popular dish family 'biryani' (weak signal) in source(s): awadhi_mughlai, north_indian_popular, swiggy_zomato_most_ordered, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "narsobawadi-basundi",
+    "popularity_score": 1,
+    "matched_name": "basundi",
+    "evidence": "variant of generic popular dish family 'basundi' (weak signal) in source(s): gujarati, wikipedia_indian_dishes, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "noon-chai",
+    "popularity_score": 1,
+    "matched_name": "chai",
+    "evidence": "variant of generic popular dish family 'chai' (weak signal) in source(s): beverages"
+  },
+  {
+    "slug": "olan",
+    "popularity_score": 1,
+    "matched_name": "olan",
+    "evidence": "exact/canonical match to 'olan' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "oondees",
+    "popularity_score": 1,
+    "matched_name": "oondees",
+    "evidence": "exact/canonical match to 'oondees' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "pachi-pulusu",
+    "popularity_score": 1,
+    "matched_name": "pachi pulusu",
+    "evidence": "exact/canonical match to 'pachi pulusu' across source(s): andhra_telangana_hyderabadi"
+  },
+  {
+    "slug": "paddu",
+    "popularity_score": 1,
+    "matched_name": "paddu",
+    "evidence": "exact/canonical match to 'paddu' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "palak-puri",
+    "popularity_score": 1,
+    "matched_name": "puri",
+    "evidence": "variant of generic popular dish family 'puri' (weak signal) in source(s): breads"
+  },
+  {
+    "slug": "paneer-dum-biryani",
+    "popularity_score": 1,
+    "matched_name": "dum biryani",
+    "evidence": "qualified variant of 'dum biryani' found in source(s): andhra_telangana_hyderabadi"
+  },
+  {
+    "slug": "paneer-korma",
+    "popularity_score": 1,
+    "matched_name": "korma",
+    "evidence": "variant of generic popular dish family 'korma' (weak signal) in source(s): awadhi_mughlai, tasteatlas_top100_india, uk_curry_favorites"
+  },
+  {
+    "slug": "papad",
+    "popularity_score": 1,
+    "matched_name": "papad",
+    "evidence": "exact/canonical match to 'papad' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "pasanda",
+    "popularity_score": 1,
+    "matched_name": "pasanda",
+    "evidence": "exact/canonical match to 'pasanda' across source(s): awadhi_mughlai"
+  },
+  {
+    "slug": "patoleo",
+    "popularity_score": 1,
+    "matched_name": "patoleo",
+    "evidence": "exact/canonical match to 'patoleo' across source(s): wikipedia_indian_sweets"
+  },
+  {
+    "slug": "patrode",
+    "popularity_score": 1,
+    "matched_name": "patrode",
+    "evidence": "exact/canonical match to 'patrode' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "peda-sweet",
+    "popularity_score": 1,
+    "matched_name": "peda",
+    "evidence": "variant of generic popular dish family 'peda' (weak signal) in source(s): sweets_overview, wikipedia_indian_dishes, wikipedia_indian_sweets"
+  },
+  {
+    "slug": "pesarattu",
+    "popularity_score": 1,
+    "matched_name": "pesarattu",
+    "evidence": "exact/canonical match to 'pesarattu' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "petha",
+    "popularity_score": 1,
+    "matched_name": "petha",
+    "evidence": "exact/canonical match to 'petha' across source(s): wikipedia_indian_sweets"
+  },
+  {
+    "slug": "pinni",
+    "popularity_score": 1,
+    "matched_name": "pinni",
+    "evidence": "exact/canonical match to 'pinni' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "poha-cutlet",
+    "popularity_score": 1,
+    "matched_name": "poha",
+    "evidence": "variant of generic popular dish family 'poha' (weak signal) in source(s): breakfast, street_food, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "pongal",
+    "popularity_score": 1,
+    "matched_name": "pongal",
+    "evidence": "exact/canonical match to 'pongal' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "pootharekulu",
+    "popularity_score": 1,
+    "matched_name": "pootharekulu",
+    "evidence": "exact/canonical match to 'pootharekulu' across source(s): wikipedia_indian_sweets"
+  },
+  {
+    "slug": "poriyal",
+    "popularity_score": 1,
+    "matched_name": "poriyal",
+    "evidence": "exact/canonical match to 'poriyal' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "pot-tikka-masala",
+    "popularity_score": 1,
+    "matched_name": "tikka",
+    "evidence": "variant of generic popular dish family 'tikka' (weak signal) in source(s): general_popular, tasteatlas_top100_india"
+  },
+  {
+    "slug": "prawn-biryani",
+    "popularity_score": 1,
+    "matched_name": "biryani",
+    "evidence": "variant of generic popular dish family 'biryani' (weak signal) in source(s): awadhi_mughlai, north_indian_popular, swiggy_zomato_most_ordered, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "rabdi-khichdi",
+    "popularity_score": 1,
+    "matched_name": "khichdi",
+    "evidence": "variant of generic popular dish family 'khichdi' (weak signal) in source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "ragi-mudde",
+    "popularity_score": 1,
+    "matched_name": "ragi mudhe",
+    "evidence": "exact/canonical match to 'ragi mudhe' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "roti",
+    "popularity_score": 1,
+    "matched_name": "roti",
+    "evidence": "exact/canonical match to 'roti' across source(s): breads"
+  },
+  {
+    "slug": "roti-gambang",
+    "popularity_score": 1,
+    "matched_name": "roti",
+    "evidence": "variant of generic popular dish family 'roti' (weak signal) in source(s): breads"
+  },
+  {
+    "slug": "roti-pizza",
+    "popularity_score": 1,
+    "matched_name": "roti",
+    "evidence": "variant of generic popular dish family 'roti' (weak signal) in source(s): breads"
+  },
+  {
+    "slug": "sambar-rice",
+    "popularity_score": 1,
+    "matched_name": "sambar",
+    "evidence": "variant of generic popular dish family 'sambar' (weak signal) in source(s): breakfast, south_indian_popular, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "sel-roti",
+    "popularity_score": 1,
+    "matched_name": "roti",
+    "evidence": "variant of generic popular dish family 'roti' (weak signal) in source(s): breads"
+  },
+  {
+    "slug": "sev-puri",
+    "popularity_score": 1,
+    "matched_name": "sev puri",
+    "evidence": "exact/canonical match to 'sev puri' across source(s): chaat"
+  },
+  {
+    "slug": "sheer-korma",
+    "popularity_score": 1,
+    "matched_name": "korma",
+    "evidence": "variant of generic popular dish family 'korma' (weak signal) in source(s): awadhi_mughlai, tasteatlas_top100_india, uk_curry_favorites"
+  },
+  {
+    "slug": "sheera",
+    "popularity_score": 1,
+    "matched_name": "sheera",
+    "evidence": "exact/canonical match to 'sheera' across source(s): wikipedia_indian_sweets"
+  },
+  {
+    "slug": "soan-papdi",
+    "popularity_score": 1,
+    "matched_name": "soan papdi",
+    "evidence": "exact/canonical match to 'soan papdi' across source(s): wikipedia_indian_sweets"
+  },
+  {
+    "slug": "student-biryani",
+    "popularity_score": 1,
+    "matched_name": "biryani",
+    "evidence": "variant of generic popular dish family 'biryani' (weak signal) in source(s): awadhi_mughlai, north_indian_popular, swiggy_zomato_most_ordered, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "suji-ka-halwa",
+    "popularity_score": 1,
+    "matched_name": "halwa",
+    "evidence": "variant of generic popular dish family 'halwa' (weak signal) in source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "tehri",
+    "popularity_score": 1,
+    "matched_name": "tehri",
+    "evidence": "exact/canonical match to 'tehri' across source(s): biryani_rice"
+  },
+  {
+    "slug": "tunde-ke-kabab",
+    "popularity_score": 1,
+    "matched_name": "tunde kabab",
+    "evidence": "qualified variant of 'tunde kabab' found in source(s): iconic_regional_state"
+  },
+  {
+    "slug": "upma",
+    "popularity_score": 1,
+    "matched_name": "upma",
+    "evidence": "exact/canonical match to 'upma' across source(s): breakfast"
+  },
+  {
+    "slug": "urad-dal",
+    "popularity_score": 1,
+    "matched_name": "dal",
+    "evidence": "variant of generic popular dish family 'dal' (weak signal) in source(s): tasteatlas_top100_india, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "vada",
+    "popularity_score": 1,
+    "matched_name": "vada",
+    "evidence": "exact/canonical match to 'vada' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "veg-biryani",
+    "popularity_score": 1,
+    "matched_name": "biryani",
+    "evidence": "variant of generic popular dish family 'biryani' (weak signal) in source(s): awadhi_mughlai, north_indian_popular, swiggy_zomato_most_ordered, wikipedia_indian_dishes"
+  },
+  {
+    "slug": "veg-dum-biryani",
+    "popularity_score": 1,
+    "matched_name": "dum biryani",
+    "evidence": "qualified variant of 'dum biryani' found in source(s): andhra_telangana_hyderabadi"
+  },
+  {
+    "slug": "white-burfi",
+    "popularity_score": 1,
+    "matched_name": "burfi",
+    "evidence": "variant of generic popular dish family 'burfi' (weak signal) in source(s): sweets_overview"
+  },
+  {
+    "slug": "yakhni-pulao",
+    "popularity_score": 1,
+    "matched_name": "yakhni pulao",
+    "evidence": "exact/canonical match to 'yakhni pulao' across source(s): biryani_rice"
+  },
+  {
+    "slug": "zarda-pulao",
+    "popularity_score": 1,
+    "matched_name": "zarda pulao",
+    "evidence": "exact/canonical match to 'zarda pulao' across source(s): biryani_rice"
+  },
+  {
+    "slug": "zunka",
+    "popularity_score": 1,
+    "matched_name": "zunka",
+    "evidence": "exact/canonical match to 'zunka' across source(s): wikipedia_indian_dishes"
+  },
+  {
+    "slug": "aam-ka-chuna",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aam-papad",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "abar-khabo",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "almond-yogurt",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-baingan",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-bhindi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-bhujia",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-bhuna",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-cheela",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-cheese",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-cheese-sandwich",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-chokha",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-chop",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-cutlet",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-fry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-gosht",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-masala",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-masala-grilled-sandwich",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-pakora",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-palak",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-paneer",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-papdi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-pie",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-puff",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-rice",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-sabzi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "aloo-sandwich",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "ambula",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "arbi-fry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "ariselu",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "assam-tea",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "avakaya",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "avakaya-pachadi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "avil-milk",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "avocado-garlic-bread-toast",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "avocado-salad",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "baby-corn",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "baby-potato-fry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "baby-potatoes",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "badam-pak",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "badusha",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "bafat",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "bagara-khana",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "bagara-rice",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "baghaar-e-baingan",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "baingan-bharta",
+    "popularity_score": 1,
+    "matched_name": "",
+    "evidence": "manual override \u2014 well-known dish, missed by automated fuzzy match"
+  },
+  {
+    "slug": "baingan-masala",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "balch\u00e3o",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "balushahi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "bamboo-chicken",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "banana",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "banana-bread",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "banana-fritter",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "bandel-cheese",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "beerakaya-pappu",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "beetroot-bhaji",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "begun-bhaja",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "beguni",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "bela-pana",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "besan-chakki",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "bhakarwadi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "bhindi-fry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "black-chana-curry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "blueberry-juice",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "bogurar-doi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "bombay-chutney",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "bombay-mix",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "bombay-potato",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "bombay-sandwich",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "bombay-sweets",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "bori",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "breadcrumbs",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "brinjal-curry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "brinjal-fry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "broken-rice",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "brownie",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "burger",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "burger-pizza",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "cabbage-rice",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "cake",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "capsicum-chutney",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "capsicum-masala",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "carrot-pudding",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chadachadi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chakka-prathaman",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chakkavaratti",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chakuli-pitha",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chammanthi-podi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chana-ghashi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chana-pulao",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "channa-kurma",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "cheese",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "cheese-maggi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "cheesecake",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "cheesy-stuffed-mushroom",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chepala-pulusu",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chhenabara",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chhencheda",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chhota-haazri",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chicken-akhni",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chicken-curry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chicken-lollipop",
+    "popularity_score": 1,
+    "matched_name": "",
+    "evidence": "manual override \u2014 well-known dish, missed by automated fuzzy match"
+  },
+  {
+    "slug": "chicken-majestic",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chicken-malai-kebab",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chicken-nuggets",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chicken-sandwich",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chicken-spring-rolls",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chikki",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chilli-bread",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chilli-gobi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chilli-potato",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chinese-bhel",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chingudi-jhola",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chips",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chitoi-pitha",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chocobar",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chocolate",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chorba",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chorizo",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "chotpoti",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "cocktail",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "coconut-cookies",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "coconut-milk-pulao",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "coconut-rice",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "coffee",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "cookies",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "corn",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "corn-cheese-ball",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "cream-cheese-sandwich",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "crispy-corn",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "cucumber-cake",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "cucumber-raita",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "cucumber-sandwich",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "curd",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "curd-rice",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "curry-leaves-chutney-kadi-patta-chutney",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "curry-puff",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "dahi-baigana",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "dahibara-aloodum",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "dalgona-coffee",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "dalle-khursani",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "darjeeling-tea",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "deep-fried-icecream",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "denver-casserole",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "dhana-jiru",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "diamond-biscuit",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "dioscorea-alata",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "doodh-ka-sharbat",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "dopiaza",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "egg-bhurji",
+    "popularity_score": 1,
+    "matched_name": "",
+    "evidence": "manual override \u2014 well-known dish, missed by automated fuzzy match"
+  },
+  {
+    "slug": "egg-curry",
+    "popularity_score": 1,
+    "matched_name": "",
+    "evidence": "manual override \u2014 well-known dish, missed by automated fuzzy match"
+  },
+  {
+    "slug": "egg-roast",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "enduri-pitha",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "fish-pulusu",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "flaxseeds-powder",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "fruit-custard",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "fruit-popsicles",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "fruit-salad",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "gajorer-halua",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "garam-masala",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "ghee",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "ginger-pickle",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "ginger-tea",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "goa-sausage",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "gobi-pakoda",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "gond-pak",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "gongura",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "gongura-chicken",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "gosht",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "goyang",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "green-chilli-chutney",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "green-chromide",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "green-mango-chutney",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "gujhia",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "gulgula",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "ice-cream",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "jackfruit-curry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "jigarthanda",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "jolpan",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kachumber-salad",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kadboli",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kadhi-chawal",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kaju-paneer-curry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kakara-pitha",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kakarakaya-fry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kala-bhuna",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kangra-tea",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kanika",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "karahi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kari-ishad",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kashmiri-pulao",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kashmiri-riste-sandwich",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kerala-veg-stew",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "khaja",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "khira-sagara",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kitchenaid-ice-cream",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kodi-kura",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kosambari",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "kuchela",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "lauki-ke-pakode",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "lavash",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "lemon-pickle",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "lollipop",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "macaroni-cheese-pasta",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "macaroni-pasta",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "macaroon",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mahaprasad",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "majjige-huli",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "malabar-pepper",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "maldives-fish",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mamak-stall",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "manchurian",
+    "popularity_score": 1,
+    "matched_name": "",
+    "evidence": "manual override \u2014 well-known dish, missed by automated fuzzy match"
+  },
+  {
+    "slug": "mango",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mango-bhapa-doi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mango-cake",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mango-pickle",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mango-pudding",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mango-sticky-rice",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mango-suga-pudding",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "masala-chaas",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "masala-corn",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "masala-pav",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mashed-potato",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mattha",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mayonnaise-pasta",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mee-goreng",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mee-rebus",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "methi-sabzi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mirchi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mirchi-bajji",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mix-veg-sabji",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mixture",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mor-kuzhambu",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "moringa-oleifera",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "moti-pak",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mug-cake",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mulligatawny",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mung-bean-sprout",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "murtabak",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "murukku",
+    "popularity_score": 1,
+    "matched_name": "",
+    "evidence": "manual override \u2014 well-known dish, missed by automated fuzzy match"
+  },
+  {
+    "slug": "mushroom",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mushroom-pulao",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "mutton-curry",
+    "popularity_score": 1,
+    "matched_name": "",
+    "evidence": "manual override \u2014 well-known dish, missed by automated fuzzy match"
+  },
+  {
+    "slug": "nabadwip-er-lal-doi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "navadhanya",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "navratan",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "neera",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "nilgiri-tea",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "non-spicy-curry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "noodles",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "oats-omelette",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "odiyal",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "onion-pakora",
+    "popularity_score": 1,
+    "matched_name": "",
+    "evidence": "manual override \u2014 well-known dish, missed by automated fuzzy match"
+  },
+  {
+    "slug": "onion-rice",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "osmania-biscuit",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "paag",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "paal",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "paal-kozhukattai",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "paal-poli",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "palak-sabji",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pancake",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "panchamrita",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "paneer-pulao",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "paneer-roastie",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "paneer-sabzi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "paniki",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "panta-bhat",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "papad-ki-sabzi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "papaya",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pappu",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pasta-salad",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pathiri",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pav",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "paya",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "peanut-thecha-shengdanayacha-thecha",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pendh\u0101",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pepper-fry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "phall",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "phulka",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "piccalilli",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pickled-carrot",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pickled-lime",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pineapple",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pitang-oying",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pizza",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "podo-pitha",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "poduthol",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pokkali-rice",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "ponk",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "poornam",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "popcorn",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pork-bafat",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "potato",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "potato-chips-baked",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "potato-stew",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "potato-wedges",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pranhara",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "prawn-masala",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "preserved-lemon",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "protein-bites",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "puff",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pulihora",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pumpkin-pie",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pumpkin-salad",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "pundi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "punugulu",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "quail-as-food",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "ragda",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "ragi",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "ragi-cake",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "raw-banana-fry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "red-chutney",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "rice",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "rice-and-curry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "roat",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "rose-milk",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "rose-sherbet",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "rose-water",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "sabudana-tikki",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "sago",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "salad",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "sarapatel",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "sattu",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "savory-french-toast-spicy-masala-toast",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "sesame-seed-candy",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "sev",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "shikanji",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "shrimp-curry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "smoked-baingan-salad-square",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "smoothie",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "snails-as-food",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "south-indian-egg-curry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "south-indian-mixture",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "spinach-soup-palak-soup",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "steam-cake",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "steamed-rice",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "sugarcane-juice",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "summer-berry-red-wine-spritzer",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "sunnundalu",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "sura",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "tadka",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "tan-ngang",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "tapioca-chips",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "tempering",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "thai-poached-fish-in-coconut-milk",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "thandai",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "thatte-idl",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "thecha",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "thennai-kozhakkattai",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "thondekai",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "til-chikki",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "tomato",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "tomato-chutney",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "tomato-puree",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "tomato-thokku",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "tusha-shinni",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "umbadiyu",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "upsaaru",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "usal",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "veg-keema-cheese-toast",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "veg-puff",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "waffle",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "watalappam",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "watermelon",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "watermelon-juice",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "wazwan",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "wheat-biscuits",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "wheat-flour-murukku",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "wheatgrass-juice",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "whole-wheat-bread",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "wine",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "xacuti",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "yak-butter",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "yam-fry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "zarda",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "zingy-parcel",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "zucchini-curry",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  },
+  {
+    "slug": "zunka-bhakar",
+    "popularity_score": 0,
+    "matched_name": "",
+    "evidence": "no match found in any popularity source; likely niche/regional"
+  }
+]
