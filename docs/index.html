@@ -1,314 +1,430 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>KhanaKhazana</title>
-<meta name="description" content="KhanaKhazana: A Large-Scale Indian Food Dataset and Fine-Grained Classification Benchmark (ICVGIP 2026). 1,760 dish classes, 209,963 images.">
-<meta property="og:title" content="KhanaKhazana: A Large-Scale Indian Food Dataset and Fine-Grained Classification Benchmark">
-<meta property="og:description" content="1,760 Indian dish classes and 209,963 images, with fine-tuned, frozen-encoder, zero-shot VLM and human baselines. ICVGIP 2026.">
-<meta property="og:image" content="assets/teaser-pie.jpg">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='44' fill='%23e8590c'/><circle cx='50' cy='50' r='20' fill='%23fff4e6'/></svg>">
-<style>
-:root{
-  --bg:#fcfbf8; --surface:#ffffff; --surface-2:#f4f1ea; --text:#1f1d1a; --muted:#5f5a52;
-  --border:#e4dfd5; --accent:#c2410c; --accent-soft:#fff1e6; --accent-text:#9a3412;
-  --good:#15803d; --code-bg:#f4f1ea; --shadow:0 1px 2px rgba(0,0,0,.04),0 4px 16px rgba(0,0,0,.05);
-}
-@media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --bg:#16140f; --surface:#1e1b16; --surface-2:#26221b; --text:#ece8e1; --muted:#a8a197;
-    --border:#38332a; --accent:#fb923c; --accent-soft:#2c1d10; --accent-text:#fdba74;
-    --good:#4ade80; --code-bg:#26221b; --shadow:none;
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="title" content="KhanaKhazana - Harith Yerragolam, C. V. Jawahar">
+  <meta name="description" content="KhanaKhazana: a 1,760-class, 209,963-image Indian food dataset, with fine-tuned, frozen-encoder, zero-shot VLM and human baselines. ICVGIP 2026.">
+  <meta name="keywords" content="Indian food, food recognition, fine-grained classification, dataset, vision-language models, DINOv3, food computing, dietary monitoring">
+  <meta name="author" content="Harith Yerragolam, C. V. Jawahar">
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="CVIT, IIIT Hyderabad">
+  <meta property="og:title" content="KhanaKhazana: A Large-Scale Indian Food Dataset and Fine-Grained Classification Benchmark">
+  <meta property="og:description" content="1,760 Indian dish classes and 209,963 images, with fine-tuned, frozen-encoder, zero-shot VLM and human baselines. ICVGIP 2026.">
+  <meta property="og:url" content="https://harith-y.github.io/KhanaKhazana_ICVGIP2026/">
+  <meta property="og:image" content="https://harith-y.github.io/KhanaKhazana_ICVGIP2026/static/images/teaser-pie.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="KhanaKhazana: A Large-Scale Indian Food Dataset and Fine-Grained Classification Benchmark">
+  <meta name="twitter:image" content="https://harith-y.github.io/KhanaKhazana_ICVGIP2026/static/images/teaser-pie.jpg">
+
+  <meta name="citation_title" content="KhanaKhazana: A Large-Scale Indian Food Dataset and Fine-Grained Classification Benchmark">
+  <meta name="citation_author" content="Yerragolam, Harith">
+  <meta name="citation_author" content="Jawahar, C. V.">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_conference_title" content="Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP)">
+
+  <meta name="theme-color" content="#2563eb">
+
+  <title>KhanaKhazana - Indian Food Dataset and Benchmark | ICVGIP 2026</title>
+
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/index.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "KhanaKhazana: A Large-Scale Indian Food Dataset and Fine-Grained Classification Benchmark",
+    "author": [
+      {"@type": "Person", "name": "Harith Yerragolam", "affiliation": {"@type": "Organization", "name": "CVIT, IIIT Hyderabad"}},
+      {"@type": "Person", "name": "C. V. Jawahar", "affiliation": {"@type": "Organization", "name": "CVIT, IIIT Hyderabad"}}
+    ],
+    "datePublished": "2026",
+    "publisher": {"@type": "Organization", "name": "ICVGIP 2026"},
+    "url": "https://harith-y.github.io/KhanaKhazana_ICVGIP2026/",
+    "keywords": ["Indian food", "food recognition", "fine-grained classification", "dataset"]
   }
-}
-:root[data-theme="dark"]{
-  --bg:#16140f; --surface:#1e1b16; --surface-2:#26221b; --text:#ece8e1; --muted:#a8a197;
-  --border:#38332a; --accent:#fb923c; --accent-soft:#2c1d10; --accent-text:#fdba74;
-  --good:#4ade80; --code-bg:#26221b; --shadow:none;
-}
-*{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--bg);color:var(--text);
-  font:16px/1.65 "Source Serif 4",Charter,"Iowan Old Style",Georgia,serif}
-h1,h2,h3,.sans,nav,table,.btn,.stat,figcaption,footer{font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-a{color:var(--accent-text)}
-img{max-width:100%;height:auto;display:block}
-.wrap{max-width:960px;margin:0 auto;padding:0 16px}
-header.hero{padding:56px 0 28px;text-align:center}
-.venue{display:inline-block;font:600 13px/1 Inter,system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;
-  color:var(--accent-text);background:var(--accent-soft);padding:7px 12px;border-radius:999px;margin-bottom:18px}
-h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:0 0 10px;letter-spacing:-.02em}
-h1 .sub{display:block;font-weight:500;font-size:.55em;color:var(--muted);letter-spacing:-.01em;margin-top:8px}
-.authors{font:500 17px/1.6 Inter,system-ui,sans-serif;margin:18px 0 2px}
-.authors a{color:var(--text);text-decoration:none;border-bottom:1px solid var(--border)}
-.affil{color:var(--muted);font:15px/1.5 Inter,system-ui,sans-serif}
-.links{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:26px 0 8px}
-.btn{display:inline-flex;align-items:center;gap:8px;padding:10px 16px;border-radius:10px;font-weight:600;font-size:15px;
-  text-decoration:none;color:var(--surface);background:var(--text);border:1px solid var(--text)}
-.btn svg{width:18px;height:18px}
-.btn.ghost{background:transparent;color:var(--text);border-color:var(--border)}
-.btn[aria-disabled="true"]{opacity:.55;cursor:default}
-nav.toc{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);
-  backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
-nav.toc .wrap{display:flex;gap:18px;overflow-x:auto;padding-top:10px;padding-bottom:10px;font-size:14px;white-space:nowrap}
-nav.toc a{color:var(--muted);text-decoration:none}
-nav.toc a:hover{color:var(--text)}
-section{padding:44px 0 8px}
-h2{font-size:26px;letter-spacing:-.01em;margin:0 0 14px}
-h3{font-size:18px;margin:28px 0 8px}
-p{margin:0 0 14px}
-.lead{font-size:18px}
-figure{margin:22px 0;background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px;box-shadow:var(--shadow)}
-figure img{border-radius:8px;background:#fff}
-figcaption{color:var(--muted);font-size:14px;line-height:1.5;margin-top:10px}
-.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:24px 0}
-.stat{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:14px 16px}
-.stat b{display:block;font-size:26px;letter-spacing:-.02em;line-height:1.2}
-.stat span{color:var(--muted);font-size:13px;line-height:1.35;display:block;margin-top:4px}
-.stat.hl b{color:var(--accent-text)}
-.tbl{overflow-x:auto;margin:16px 0;border:1px solid var(--border);border-radius:12px;background:var(--surface)}
-table{border-collapse:collapse;width:100%;font-size:14.5px;font-variant-numeric:tabular-nums}
-th,td{padding:9px 12px;text-align:right;border-bottom:1px solid var(--border);white-space:nowrap}
-th:first-child,td:first-child{text-align:left}
-thead th{font-weight:600;color:var(--muted);background:var(--surface-2);font-size:13px}
-tbody tr:last-child td{border-bottom:none}
-tr.group td{background:var(--surface-2);color:var(--muted);font-size:12.5px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;text-align:left}
-tr.ours td{font-weight:700}
-tr.best td{color:var(--good);font-weight:700}
-.note{color:var(--muted);font-size:14px}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
-@media (max-width:760px){.grid2{grid-template-columns:1fr}}
-ul.find{padding-left:20px;margin:0 0 14px}
-ul.find li{margin:0 0 8px}
-pre{background:var(--code-bg);border:1px solid var(--border);border-radius:12px;padding:14px 16px;overflow-x:auto;
-  font:13px/1.55 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;margin:12px 0}
-.callout{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:8px;padding:12px 16px;margin:16px 0}
-footer{color:var(--muted);font-size:13px;text-align:center;padding:40px 0 48px;border-top:1px solid var(--border);margin-top:48px}
-.theme{position:fixed;right:14px;bottom:14px;z-index:6;width:38px;height:38px;border-radius:50%;border:1px solid var(--border);
-  background:var(--surface);color:var(--text);cursor:pointer;font-size:16px;box-shadow:var(--shadow)}
-</style>
+  </script>
+
+  <style>
+    .stat-box { text-align: center; padding: 1rem 0.5rem; }
+    .stat-box .stat-num { font-size: 2rem; font-weight: 800; line-height: 1.1; color: #1e293b; }
+    .stat-box .stat-num.accent { color: #2563eb; }
+    .stat-box .stat-lbl { font-size: 0.85rem; color: #64748b; margin-top: 0.3rem; }
+    .results-table { font-variant-numeric: tabular-nums; margin: 0 auto; }
+    .results-table td, .results-table th { text-align: right !important; }
+    .results-table td:first-child, .results-table th:first-child { text-align: left !important; }
+    .results-table tr.group-row td { background: #f1f5f9; color: #64748b; font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; text-align: left !important; }
+    .results-table tr.ours td { font-weight: 700; }
+    .results-table tr.best td { font-weight: 700; color: #15803d; }
+    .table-container { margin-bottom: 0.5rem; }
+    .figure-caption { color: #64748b; font-size: 0.95rem; margin-top: 0.75rem; }
+    .paper-figure { border-radius: 12px; background: #fff; }
+  </style>
 </head>
 <body>
 
-<header class="hero">
-  <div class="wrap">
-    <div class="venue">ICVGIP 2026 · Kolkata</div>
-    <h1>KhanaKhazana
-      <span class="sub">A Large-Scale Indian Food Dataset and Fine-Grained Classification Benchmark</span>
-    </h1>
-    <div class="authors">Harith Yerragolam &nbsp;·&nbsp; C. V. Jawahar</div>
-    <div class="affil">Center for Visual Information Technology (CVIT), IIIT Hyderabad</div>
-    <div class="links">
-      <a class="btn" aria-disabled="true" title="Available when the proceedings are published">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></svg>
-        Paper (coming soon)</a>
-      <a class="btn" href="https://github.com/Harith-Y/KhanaKhazana_ICVGIP2026/blob/master/Supplementary.pdf">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h6"/></svg>
-        Supplementary</a>
-      <a class="btn" href="https://github.com/Harith-Y/KhanaKhazana_ICVGIP2026">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.7 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
-        Code &amp; splits</a>
-      <a class="btn ghost" href="#availability">Request the corpus</a>
-    </div>
-  </div>
-</header>
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
 
-<nav class="toc" aria-label="Sections">
-  <div class="wrap">
-    <a href="#abstract">Abstract</a><a href="#dataset">Dataset</a><a href="#benchmark">Benchmark</a>
-    <a href="#scaling">Scaling</a><a href="#application">Plate analysis</a><a href="#availability">Data &amp; code</a><a href="#citation">Citation</a>
-  </div>
-</nav>
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">KhanaKhazana: A Large-Scale Indian Food Dataset and Fine-Grained Classification Benchmark</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Harith Yerragolam,</span>
+              <span class="author-block">C. V. Jawahar</span>
+            </div>
 
-<main class="wrap">
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">Center for Visual Information Technology (CVIT), IIIT Hyderabad<br>ICVGIP 2026</span>
+            </div>
 
-  <figure>
-    <img src="assets/teaser-pie.jpg" alt="Two-ring sunburst of the KhanaKhazana corpus: inner ring shows 52 culinary categories such as veg curries, sweets, snacks, beverages, pickles and dal; outer ring shows representative dishes such as ghevar, dhokla, lassi and chole bhature." width="1400" height="1027">
-    <figcaption>KhanaKhazana at a glance. Inner ring: 52 culinary categories, with wedge angle proportional to the number of classes. Outer ring: representative dishes, with segment length growing (log scale) with each class's image count, from 2 up to 6,405 images.</figcaption>
-  </figure>
-
-  <div class="stats">
-    <div class="stat hl"><b>1,760</b><span>dish classes, an order of magnitude beyond prior Indian food datasets</span></div>
-    <div class="stat"><b>209,963</b><span>images after OCR recovery, deduplication, outlier clustering and manual review</span></div>
-    <div class="stat"><b>58.9%</b><span>best fine-tuned CNN at 300 classes (DenseNet-121)</span></div>
-    <div class="stat hl"><b>75.7%</b><span>frozen Perception Encoder L/14 with a linear head</span></div>
-    <div class="stat"><b>48.3%</b><span>best zero-shot VLM (Gemini 2.5 Flash Lite)</span></div>
-    <div class="stat"><b>33.8%</b><span>human top-1 (66 participants, informal)</span></div>
-  </div>
-
-  <section id="abstract">
-    <h2>Abstract</h2>
-    <p class="lead">Automated food recognition from a photograph enables passive dietary monitoring, with value for chronic-disease management, fitness tracking, drug-trial compliance monitoring and large-scale nutritional epidemiology. The regional diversity of Indian cuisine places distinct dish names in the thousands, creating a fine-grained recognition problem with no equivalent in food-vision benchmarks.</p>
-    <p>We introduce <b>KhanaKhazana</b>, a dataset of 1,760 dish classes and 210K images, an order of magnitude larger in label space than prior Indian food datasets. Although the corpus spans 1,760 classes, a single restaurant, mess or nutrition study needs only a few hundred concurrently, so we benchmark accordingly: fine-tuned CNNs from 100 to 1,700 classes (300 as the primary scale), frozen DINOv3 and Perception Encoder features, eight zero-shot vision-language models (CLIP through GPT-4o), and a human baseline.</p>
-    <p>Across nine fine-tuned CNNs spanning a 25× parameter range, data quality dominates both data quantity and backbone capacity. A controlled experiment shows that larger vocabularies lower accuracy and more images per class raise it, independently, and frozen self-supervised and vision-language encoders with a linear head lift the 300-class plateau from 58.9% to 75.7%. The best zero-shot VLM does not close the gap, and a human baseline confirms the task is hard for people, not only for models. Integrated into an existing <i>thali</i> plate-analysis pipeline, the classifier lifts dish identification from 84.51% to 99.50% with unchanged weight-estimation error.</p>
-  </section>
-
-  <section id="dataset">
-    <h2>The dataset</h2>
-    <p>KhanaKhazana (Hindi for <i>food treasure</i>) is a near-exhaustive crawl of the Indian dish vocabulary, including regional specialities from states that are poorly covered by pan-Indian datasets, such as <i>eromba</i> (Manipur), <i>galho</i> (Nagaland), <i>kosha mangsho</i> (Bengal) and <i>undhiyu</i> (Gujarat).</p>
-    <p>About 900K raw web images were cleaned in four stages: OCR-based recovery of blog-filed images (12,540 relocated), exact deduplication (18,053 removed), per-class embedding-based outlier clustering (46,483 images flagged in 1,216 classes) and manual review (198,336 keep, delete, crop or move decisions by three to four annotators). A further 110,873 non-food images were pruned before they entered the corpus.</p>
-    <figure>
-      <img src="assets/dish-examples.jpg" alt="A 6 by 4 grid of Indian dishes including samosa, pani puri, vada pav, biryani, khichdi, dosa, roti, palak paneer, dal and chicken 65." loading="lazy" width="1294" height="1051">
-      <figcaption>Representative dishes from 24 of the 1,760 classes. Similar colours and plating across semantically distinct dishes make 300-class Indian food recognition hard for classifiers, VLMs and humans alike.</figcaption>
-    </figure>
-    <div class="grid2">
-      <figure>
-        <img src="assets/dataset-stats.png" alt="Top: log-scale rank-frequency curve of images per class, showing a long tail. Bottom: histogram of native image resolution with a marker at the 160 pixel training size." loading="lazy" width="1200" height="1388">
-        <figcaption>(a) Images per class, sorted by rank (log scale): a heavy long tail. (b) Native image resolution is well above the training size, so resolution is not the constraint.</figcaption>
-      </figure>
-      <div>
-        <h3>Why it is hard</h3>
-        <ul class="find">
-          <li><b>Inter-class similarity.</b> <i>Sambar</i> and <i>dal makhani</i> differ in ingredient and region but not in colour, texture or plating.</li>
-          <li><b>Intra-class variability.</b> <i>Baingan bharta</i> ranges from pale yellow to dark brown across households and regions.</li>
-          <li><b>Deformable structures.</b> A <i>roti</i> is flat when resting and puffed fresh off the tawa.</li>
-          <li><b>Knowledge gaps.</b> Rare regional dishes such as <i>eromba</i> are unfamiliar to most people: 100% of human answers were "I don't know".</li>
-          <li><b>Long tail.</b> Most classes hold far fewer than the several hundred images the head classes enjoy.</li>
-        </ul>
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <span class="link-block">
+                  <a class="external-link button is-normal is-rounded is-dark" disabled title="Available when the proceedings are published">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    <span>Paper (soon)</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="static/pdfs/supplementary.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                    <span>Supplementary</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://github.com/Harith-Y/KhanaKhazana_ICVGIP2026" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    <span>Code &amp; Splits</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="#data" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon"><i class="fas fa-database"></i></span>
+                    <span>Dataset</span>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
 
-  <section id="benchmark">
-    <h2>Benchmark at 300 classes</h2>
-    <p>The primary benchmark is <b>Popular-300</b>, the 300 most frequently eaten dishes (5,591 test images; the 95% sampling interval on top-1 is about ±1.3 points). The comparison is intentionally asymmetric: fine-tuned and probed models have seen all 300 classes, the zero-shot models none.</p>
-    <div class="tbl">
-      <table>
-        <thead><tr><th>Model</th><th>Trainable params</th><th>Top-1</th><th>Top-5</th></tr></thead>
-        <tbody>
-          <tr class="group"><td colspan="4">Reference</td></tr>
-          <tr><td>Random chance (1/300)</td><td>–</td><td>0.33%</td><td>1.67%</td></tr>
-          <tr><td>Human baseline (66 participants, 562 answers)</td><td>–</td><td>33.81%</td><td>–</td></tr>
-          <tr class="group"><td colspan="4">Zero-shot vision-language models</td></tr>
-          <tr><td>CLIP ViT-B/32</td><td>0</td><td>0.22%</td><td>2.28%</td></tr>
-          <tr><td>LLaVA-1.5-7B</td><td>0</td><td>0.00%</td><td>0.00%</td></tr>
-          <tr><td>Qwen2-VL-2B</td><td>0</td><td>4.66%</td><td>7.69%</td></tr>
-          <tr><td>Llama-3.2-11B-Vision</td><td>0</td><td>8.97%</td><td>10.78%</td></tr>
-          <tr><td>InternVL2.5-4B</td><td>0</td><td>16.35%</td><td>22.52%</td></tr>
-          <tr><td>Qwen2-VL-7B</td><td>0</td><td>19.05%</td><td>26.42%</td></tr>
-          <tr><td>GPT-4o</td><td>0</td><td>39.95%</td><td>55.68%</td></tr>
-          <tr><td>Gemini 2.5 Flash Lite</td><td>0</td><td>48.25%</td><td>70.37%</td></tr>
-          <tr class="group"><td colspan="4">Fine-tuned CNNs (selection; nine in the paper)</td></tr>
-          <tr class="ours"><td>DenseNet-121 (our model)</td><td>8M</td><td>58.90%</td><td>84.85%</td></tr>
-          <tr><td>MobileNet-V2</td><td>3.4M</td><td>58.75%</td><td>84.21%</td></tr>
-          <tr><td>EfficientNet-B3</td><td>11.5M</td><td>58.04%</td><td>83.24%</td></tr>
-          <tr><td>ResNet-50</td><td>25M</td><td>57.66%</td><td>83.19%</td></tr>
-          <tr><td>ConvNeXt-Tiny</td><td>27.9M</td><td>51.94%</td><td>78.93%</td></tr>
-          <tr class="group"><td colspan="4">Frozen encoder + linear head</td></tr>
-          <tr><td>ViT-S/16 (ImageNet)</td><td>0.1M</td><td>54.01%</td><td>79.45%</td></tr>
-          <tr><td>DINOv3-S/16</td><td>0.1M</td><td>64.37%</td><td>88.02%</td></tr>
-          <tr><td>PE-Core-B/16</td><td>0.3M</td><td>68.86%</td><td>91.84%</td></tr>
-          <tr><td>DINOv3-B/16</td><td>0.2M</td><td>70.93%</td><td>91.95%</td></tr>
-          <tr class="best"><td>PE-Core-L/14</td><td>0.3M</td><td>75.66%</td><td>94.45%</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p class="note">The frozen-encoder probes are scored on 5,476 of the 5,644 test images. Full tables, including all eleven backbones and three further zero-shot models, are in the paper and supplementary.</p>
 
-    <h3>Findings</h3>
-    <ul class="find">
-      <li><b>Fine-tuned backbone capacity is not the constraint.</b> Eight of nine fine-tuned CNNs fall within 4.6 points (54.32–58.90%) across a 25× parameter range; MobileNet-V2 (3.4M) is statistically indistinguishable from DenseNet-121 (8M).</li>
-      <li><b>Stronger pretraining lifts the plateau.</b> Frozen DINOv3 and Perception Encoder features beat every fine-tuned CNN by 5.5 to 16.8 points with at most 0.31M trainable parameters, and they improve with encoder size. The 58% plateau is a property of fine-tuning ImageNet features on fewer than 80 images per class, not a fixed ceiling of the data.</li>
-      <li><b>Cleaning matters more than volume.</b> Adding 2.7× more pseudo-labelled images reduced top-1 by 3 points; pruning 110,873 non-food images recovered it without a single new label.</li>
-      <li><b>Zero-shot VLMs do not close the gap.</b> Frontier closed models reach two to two-and-a-half times the best open-source result, but still trail our fine-tuned model by 10.7 points. CLIP's top-1 is below chance because transliterated dish names are absent from its English captions, and LLaVA-1.5 scores zero because it does not follow the 300-way answer format.</li>
-    </ul>
-  </section>
-
-  <section id="scaling">
-    <h2>Class count versus images per class</h2>
-    <p>Across the Popular tiers, class count and images per class change together. A controlled experiment trains DenseNet-121 on a fixed number of images per class to separate them: both matter on their own.</p>
-    <div class="grid2">
-      <div class="tbl">
-        <table>
-          <thead><tr><th>Classes K</th><th>5 img/cls</th><th>10</th><th>20</th><th>30</th></tr></thead>
-          <tbody>
-            <tr><td>100</td><td>40.40</td><td>50.66</td><td>56.71</td><td>61.89</td></tr>
-            <tr><td>200</td><td>29.39</td><td>37.93</td><td>49.07</td><td>51.49</td></tr>
-            <tr><td>300</td><td>24.85</td><td>–</td><td>–</td><td>–</td></tr>
-            <tr><td>600</td><td>19.07</td><td>–</td><td>–</td><td>–</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div>
-        <p>Top-1 (%) at a fixed training budget. Doubling the vocabulary from 100 to 200 classes costs 7.6 to 12.7 points at every budget, and more images per class help with diminishing returns (+10.3, +6.0, +5.2 points at 100 classes). Dashes: some classes in the 300- and 600-class tiers have only six training images.</p>
+  <!-- Teaser image -->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <img class="paper-figure" src="static/images/teaser-pie.jpg" alt="Two-ring sunburst of the KhanaKhazana corpus: the inner ring shows 52 culinary categories such as veg curries, sweets, snacks, beverages, pickles and dal; the outer ring shows representative dishes such as ghevar, dhokla, lassi and chole bhature." width="1400" height="1027">
+        <h2 class="subtitle has-text-centered">
+          <b>KhanaKhazana</b> (Hindi for <i>food treasure</i>) spans <b>1,760 Indian dish classes</b> and <b>209,963 images</b> across 52 culinary categories, an order of magnitude beyond any prior Indian food dataset.
+        </h2>
       </div>
     </div>
-    <h3>Accuracy as the vocabulary grows</h3>
-    <div class="tbl">
-      <table>
-        <thead><tr><th>Tier</th><th>Imgs/cls</th><th>Top-1</th><th>Top-5</th><th>Schedule</th></tr></thead>
-        <tbody>
-          <tr><td>Popular-100</td><td>~183</td><td>75.45%</td><td>93.73%</td><td>baseline</td></tr>
-          <tr><td>Popular-200</td><td>~139</td><td>65.42%</td><td>88.94%</td><td>baseline</td></tr>
-          <tr class="ours"><td>Popular-300</td><td>~125</td><td>58.90%</td><td>84.85%</td><td>baseline</td></tr>
-          <tr><td>Popular-400</td><td>~118</td><td>52.88%</td><td>78.96%</td><td>baseline</td></tr>
-          <tr><td>Popular-500</td><td>~111</td><td>48.45%</td><td>76.33%</td><td>baseline</td></tr>
-          <tr><td>Popular-1000</td><td>~131</td><td>46.03%</td><td>73.38%</td><td>extended</td></tr>
-          <tr><td>Popular-1300</td><td>~121</td><td>41.28%</td><td>69.56%</td><td>extended</td></tr>
-          <tr><td>Popular-1500</td><td>~114</td><td>37.62%</td><td>65.92%</td><td>extended</td></tr>
-          <tr><td>Popular-1700</td><td>~101</td><td>37.55%</td><td>65.74%</td><td>extended</td></tr>
-        </tbody>
-      </table>
-    </div>
-    <p class="note">DenseNet-121, one run per tier, each scored on its own test split. Baseline schedule: 80 epochs, LR 3e-4, label smoothing 0.1. Extended: 120 epochs, LR 1e-4, label smoothing 0.2, used from 1,000 classes up because the baseline underfits there. The full table, including the 600–900 tiers, is in the paper.</p>
-    <figure>
-      <img src="assets/confusion.jpg" alt="300 by 300 confusion matrix with a strong blue diagonal and sparse off-diagonal cells, classes grouped into 16 macro-categories." loading="lazy" width="1000" height="854">
-      <figcaption>DenseNet-121 confusion matrix at 300 classes, grouped by macro-category. Most strong confusions are near-duplicate dish names (<i>oondees</i> → <i>kozhukkatta</i>) rather than recognition failures; a smaller set is genuine visual ambiguity (<i>palak sabji</i> → <i>aloo methi</i>).</figcaption>
-    </figure>
   </section>
 
-  <section id="application">
-    <h2>Application: <i>thali</i> plate analysis</h2>
-    <p>The classifier drops into the plate-analysis pipeline of Arora et al. (ICVGIP 2025) in place of its prototype-bank KNN. Grounded-SAM-2 segments each dish, our DenseNet-121 identifies it, a regression head estimates the portion weight, and the IFCT-2017 table gives calories, protein, carbohydrate and fat per dish. Dish identification on ITD crops rises from 84.51% to 99.50% (on a 41-class subset of the 50 ITD dishes), with weight-estimation error unchanged at about 14 g MAE.</p>
-    <figure>
-      <img src="assets/plate-analysis.jpg" alt="Four thali plates and trays from different angles. Top row: coloured segmentation masks per dish. Bottom row: predicted dish names, weights in grams and nutrition values." loading="lazy" width="1600" height="795">
-      <figcaption>End-to-end plate analysis on four trays and camera angles. Top: segmentation. Bottom: our labels with estimated weight and nutrition. The recurring failure is segmentation, not classification: in (a) the plate mask bleeds into the background.</figcaption>
-    </figure>
-  </section>
 
-  <section id="availability">
-    <h2>Data and code</h2>
-    <p>The <a href="https://github.com/Harith-Y/KhanaKhazana_ICVGIP2026">repository</a> contains the benchmark code (training, evaluation, frozen-encoder probes, controlled experiments and zero-shot VLM scripts), one config per reported experiment, the class list of every evaluated tier, the head / mid / tail frequency groups, per-class accuracy of the 1,700-class model, and the 24 strongest confusion pairs.</p>
-    <div class="callout">
-      <p style="margin:0"><b>Images are not redistributed.</b> Most source images come from restaurant sites and web image search, and their licensing is not settled. The corpus is available to researchers on request: write to <a href="mailto:harith.yerragolam@research.iiit.ac.in">harith.yerragolam@research.iiit.ac.in</a> (cc <a href="mailto:jawahar@iiit.ac.in">jawahar@iiit.ac.in</a>) with your name, affiliation and intended research use.</p>
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Automated food recognition from a photograph enables passive dietary monitoring, with value for chronic-disease management, fitness tracking, drug-trial compliance monitoring, and large-scale nutritional epidemiology. The regional diversity of Indian cuisine places distinct dish names in the thousands, creating a fine-grained recognition problem with no equivalent in food-vision benchmarks. Our paper presents the first study of Indian food classification at this scale. We introduce KhanaKhazana, a dataset of 1,760 dish classes and 210K images, an order of magnitude larger in label space than prior Indian food datasets, providing a data foundation at a vocabulary scale matching India's regional cuisine. Although the corpus spans 1,760 classes, a single restaurant, mess, or nutrition study needs only a few hundred concurrently, so we benchmark accordingly, i.e. fine-tuned CNNs from 100 to 1,700 classes (300 as the primary scale), frozen DINOv3 and Perception Encoder features, eight zero-shot vision-language models (CLIP through GPT-4o), and a human baseline.
+            </p>
+            <p>
+              Across nine fine-tuned CNNs spanning a 25&times; parameter range, data quality dominates both data quantity and backbone capacity. Removing non-food noise outperforms every fine-tuned backbone change. A controlled experiment shows that larger vocabularies lower accuracy and more images per class raise it, independently, and frozen self-supervised and vision-language encoders with a linear head lift the 300-class plateau from 58.9% to 75.7%. The best zero-shot VLM does not close the gap to our models, and a human baseline confirms the task is hard for people, not only for models. We further integrate the classifier into an existing thali plate-analysis pipeline, lifting dish identification from 84.51% to 99.50% with unchanged weight-estimation error.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section id="citation">
-    <h2>Citation</h2>
-    <p>The full reference will be added when the proceedings are published.</p>
-<pre><code>@inproceedings{yerragolam2026khanakhazana,
-  title     = {KhanaKhazana: A Large-Scale Indian Food Dataset and
-               Fine-Grained Classification Benchmark},
+
+  <!-- Key numbers -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-multiline is-mobile is-centered">
+        <div class="column is-4-tablet is-6-mobile"><div class="stat-box"><div class="stat-num">1,760</div><div class="stat-lbl">dish classes</div></div></div>
+        <div class="column is-4-tablet is-6-mobile"><div class="stat-box"><div class="stat-num">209,963</div><div class="stat-lbl">curated images</div></div></div>
+        <div class="column is-4-tablet is-6-mobile"><div class="stat-box"><div class="stat-num">58.9%</div><div class="stat-lbl">best fine-tuned CNN @ 300 classes</div></div></div>
+        <div class="column is-4-tablet is-6-mobile"><div class="stat-box"><div class="stat-num accent">75.7%</div><div class="stat-lbl">frozen Perception Encoder + linear head</div></div></div>
+        <div class="column is-4-tablet is-6-mobile"><div class="stat-box"><div class="stat-num">48.3%</div><div class="stat-lbl">best zero-shot VLM (Gemini 2.5 Flash Lite)</div></div></div>
+        <div class="column is-4-tablet is-6-mobile"><div class="stat-box"><div class="stat-num">33.8%</div><div class="stat-lbl">human top-1 (66 participants)</div></div></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Image carousel -->
+  <section class="hero is-small is-light">
+    <div class="hero-body">
+      <div class="container">
+        <h2 class="title is-3 has-text-centered">The Dataset</h2>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item">
+            <img src="static/images/dish-examples.jpg" alt="A 6 by 4 grid of Indian dishes including samosa, pani puri, vada pav, biryani, khichdi, dosa, roti, palak paneer, dal and chicken 65." loading="lazy"/>
+            <h2 class="subtitle has-text-centered">
+              Representative dishes from 24 of the 1,760 classes. Similar colors and plating across semantically distinct dishes make 300-class Indian food recognition hard for classifiers, VLMs and humans alike.
+            </h2>
+          </div>
+          <div class="item">
+            <img src="static/images/dataset-stats.png" alt="Top: log-scale rank-frequency curve of images per class, showing a long tail. Bottom: histogram of native image resolution with a marker at the training size." loading="lazy"/>
+            <h2 class="subtitle has-text-centered">
+              (a) Images per class, sorted by rank: a heavy long tail. (b) Native resolution sits well above the training size, so resolution is not the constraint.
+            </h2>
+          </div>
+          <div class="item">
+            <img src="static/images/confusion.jpg" alt="300 by 300 confusion matrix with a strong diagonal and sparse off-diagonal cells, classes grouped into 16 macro-categories." loading="lazy"/>
+            <h2 class="subtitle has-text-centered">
+              300-class confusion matrix (DenseNet-121), grouped by macro-category. Most strong confusions are near-duplicate dish names rather than recognition failures.
+            </h2>
+          </div>
+          <div class="item">
+            <img src="static/images/plate-analysis.jpg" alt="Four thali plates and trays from different angles. Top row: segmentation masks per dish. Bottom row: predicted dish names, weights and nutrition values." loading="lazy"/>
+            <h2 class="subtitle has-text-centered">
+              End-to-end <i>thali</i> plate analysis: segmentation (top), and our dish labels with estimated weight and nutrition (bottom).
+            </h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Dataset construction -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Building KhanaKhazana</h2>
+          <div class="content has-text-justified">
+            <p>
+              KhanaKhazana is a near-exhaustive crawl of the Indian dish vocabulary, including regional specialties from states poorly covered by pan-Indian datasets, such as <i>eromba</i> (Manipur), <i>galho</i> (Nagaland), <i>kosha mangsho</i> (Bengal) and <i>undhiyu</i> (Gujarat). About 900K raw web images were cleaned in four stages:
+            </p>
+            <ul>
+              <li><b>OCR-based recovery</b> of images filed under blog names rather than dish names (12,540 relocated).</li>
+              <li><b>Exact deduplication</b> (18,053 removed, 1,710 of them cross-class label conflicts).</li>
+              <li><b>Per-class outlier clustering</b> on image embeddings (46,483 images flagged in 1,216 classes).</li>
+              <li><b>Manual review</b> by three to four annotators (198,336 keep, delete, crop or move decisions).</li>
+            </ul>
+            <p>A further 110,873 non-food images were pruned before they entered the corpus.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Benchmark -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Benchmark at 300 Classes</h2>
+          <div class="content has-text-justified">
+            <p>
+              The primary benchmark is <b>Popular-300</b>: the 300 most frequently eaten dishes, 5,591 test images (95% sampling interval on top-1 about &plusmn;1.3 points). Fine-tuned and probed models have seen all 300 classes, zero-shot models none.
+            </p>
+          </div>
+          <div class="table-container">
+            <table class="table is-fullwidth is-hoverable results-table">
+              <thead><tr><th>Model</th><th>Trainable</th><th>Top-1</th><th>Top-5</th></tr></thead>
+              <tbody>
+                <tr class="group-row"><td colspan="4">Reference</td></tr>
+                <tr><td>Random chance (1/300)</td><td>&ndash;</td><td>0.33%</td><td>1.67%</td></tr>
+                <tr><td>Human baseline (66 participants)</td><td>&ndash;</td><td>33.81%</td><td>&ndash;</td></tr>
+                <tr class="group-row"><td colspan="4">Zero-shot vision-language models</td></tr>
+                <tr><td>CLIP ViT-B/32</td><td>0</td><td>0.22%</td><td>2.28%</td></tr>
+                <tr><td>LLaVA-1.5-7B</td><td>0</td><td>0.00%</td><td>0.00%</td></tr>
+                <tr><td>Qwen2-VL-2B</td><td>0</td><td>4.66%</td><td>7.69%</td></tr>
+                <tr><td>Llama-3.2-11B-Vision</td><td>0</td><td>8.97%</td><td>10.78%</td></tr>
+                <tr><td>InternVL2.5-4B</td><td>0</td><td>16.35%</td><td>22.52%</td></tr>
+                <tr><td>Qwen2-VL-7B</td><td>0</td><td>19.05%</td><td>26.42%</td></tr>
+                <tr><td>GPT-4o</td><td>0</td><td>39.95%</td><td>55.68%</td></tr>
+                <tr><td>Gemini 2.5 Flash Lite</td><td>0</td><td>48.25%</td><td>70.37%</td></tr>
+                <tr class="group-row"><td colspan="4">Fine-tuned CNNs (selection)</td></tr>
+                <tr class="ours"><td>DenseNet-121 (ours)</td><td>8M</td><td>58.90%</td><td>84.85%</td></tr>
+                <tr><td>MobileNet-V2</td><td>3.4M</td><td>58.75%</td><td>84.21%</td></tr>
+                <tr><td>EfficientNet-B3</td><td>11.5M</td><td>58.04%</td><td>83.24%</td></tr>
+                <tr><td>ResNet-50</td><td>25M</td><td>57.66%</td><td>83.19%</td></tr>
+                <tr><td>ConvNeXt-Tiny</td><td>27.9M</td><td>51.94%</td><td>78.93%</td></tr>
+                <tr class="group-row"><td colspan="4">Frozen encoder + linear head</td></tr>
+                <tr><td>ViT-S/16 (ImageNet)</td><td>0.1M</td><td>54.01%</td><td>79.45%</td></tr>
+                <tr><td>DINOv3-S/16</td><td>0.1M</td><td>64.37%</td><td>88.02%</td></tr>
+                <tr><td>PE-Core-B/16</td><td>0.3M</td><td>68.86%</td><td>91.84%</td></tr>
+                <tr><td>DINOv3-B/16</td><td>0.2M</td><td>70.93%</td><td>91.95%</td></tr>
+                <tr class="best"><td>PE-Core-L/14</td><td>0.3M</td><td>75.66%</td><td>94.45%</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p class="figure-caption">Frozen-encoder probes are scored on 5,476 of the 5,644 test images. All eleven backbones and three further zero-shot models are in the paper and supplementary.</p>
+
+          <h3 class="title is-4" style="margin-top:2rem">Key findings</h3>
+          <div class="content has-text-justified">
+            <ul>
+              <li><b>Fine-tuned backbone capacity is not the constraint.</b> Eight of nine fine-tuned CNNs fall within 4.6 points (54.32&ndash;58.90%) across a 25&times; parameter range.</li>
+              <li><b>Stronger pretraining lifts the plateau.</b> Frozen DINOv3 and Perception Encoder features beat every fine-tuned CNN by 5.5 to 16.8 points with at most 0.31M trainable parameters, and improve with encoder size. The 58% plateau is a property of fine-tuning ImageNet features on fewer than 80 images per class, not a ceiling of the data.</li>
+              <li><b>Cleaning matters more than volume.</b> Adding 2.7&times; more pseudo-labeled images reduced top-1 by 3 points; pruning 110,873 non-food images recovered it without a single new label.</li>
+              <li><b>Zero-shot VLMs do not close the gap.</b> Gemini 2.5 Flash Lite trails our fine-tuned model by 10.7 points. CLIP falls below chance on transliterated dish names, and LLaVA-1.5 fails to follow the 300-way answer format.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Scaling -->
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Class Count vs. Images per Class</h2>
+          <div class="content has-text-justified">
+            <p>
+              Across the Popular tiers, class count and images per class change together. Training DenseNet-121 on a fixed number of images per class separates them: doubling the vocabulary from 100 to 200 classes costs 7.6 to 12.7 points at every budget, while more images per class help with diminishing returns.
+            </p>
+          </div>
+          <div class="columns">
+            <div class="column">
+              <div class="table-container">
+                <table class="table is-fullwidth is-hoverable results-table">
+                  <thead><tr><th>Classes</th><th>5 img</th><th>10</th><th>20</th><th>30</th></tr></thead>
+                  <tbody>
+                    <tr><td>100</td><td>40.40</td><td>50.66</td><td>56.71</td><td>61.89</td></tr>
+                    <tr><td>200</td><td>29.39</td><td>37.93</td><td>49.07</td><td>51.49</td></tr>
+                    <tr><td>300</td><td>24.85</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td></tr>
+                    <tr><td>600</td><td>19.07</td><td>&ndash;</td><td>&ndash;</td><td>&ndash;</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="figure-caption">Top-1 (%) at a fixed number of training images per class. Dashes: some classes in the 300- and 600-class tiers have only six training images.</p>
+            </div>
+            <div class="column">
+              <div class="table-container">
+                <table class="table is-fullwidth is-hoverable results-table">
+                  <thead><tr><th>Tier</th><th>Top-1</th><th>Top-5</th></tr></thead>
+                  <tbody>
+                    <tr><td>Popular-100</td><td>75.45%</td><td>93.73%</td></tr>
+                    <tr><td>Popular-200</td><td>65.42%</td><td>88.94%</td></tr>
+                    <tr class="ours"><td>Popular-300</td><td>58.90%</td><td>84.85%</td></tr>
+                    <tr><td>Popular-500</td><td>48.45%</td><td>76.33%</td></tr>
+                    <tr><td>Popular-1000</td><td>46.03%</td><td>73.38%</td></tr>
+                    <tr><td>Popular-1300</td><td>41.28%</td><td>69.56%</td></tr>
+                    <tr><td>Popular-1700</td><td>37.55%</td><td>65.74%</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <p class="figure-caption">DenseNet-121 as the vocabulary grows (selected tiers; full table in the paper). Tiers of 1,000 classes and above use the extended 120-epoch schedule.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Application -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Application: <i>Thali</i> Plate Analysis</h2>
+          <img class="paper-figure" src="static/images/plate-analysis.jpg" alt="Four thali plates and trays from different angles. Top row: segmentation masks per dish. Bottom row: predicted dish names, weights in grams and nutrition values." loading="lazy">
+          <div class="content has-text-justified" style="margin-top:1rem">
+            <p>
+              The classifier drops into the plate-analysis pipeline of Arora et al. (ICVGIP 2025) in place of its prototype-bank KNN. Grounded-SAM-2 segments each dish, our DenseNet-121 identifies it, a regression head estimates the portion weight, and the IFCT-2017 table gives calories, protein, carbohydrate and fat. Dish identification on ITD crops rises from 84.51% to <b>99.50%</b> (41-class subset of the 50 ITD dishes), with weight-estimation error unchanged at about 14 g MAE.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Data and code -->
+  <section class="section" id="data">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Data and Code</h2>
+          <div class="content has-text-justified">
+            <p>
+              The <a href="https://github.com/Harith-Y/KhanaKhazana_ICVGIP2026" target="_blank">repository</a> releases the benchmark code (training, evaluation, frozen-encoder probes, controlled experiments and zero-shot VLM scripts), one config per reported experiment, the class list of every evaluated tier, head / mid / tail frequency groups, per-class accuracy of the 1,700-class model, and the 24 strongest confusion pairs.
+            </p>
+            <p>
+              <b>Images are not redistributed</b>, because most source images come from restaurant sites and web image search and their licensing is not settled. The corpus is available to researchers on request: write to <a href="mailto:harith.yerragolam@research.iiit.ac.in">harith.yerragolam@research.iiit.ac.in</a> (cc <a href="mailto:jawahar@iiit.ac.in">jawahar@iiit.ac.in</a>) with your name, affiliation and intended research use.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <div class="bibtex-header">
+        <h2 class="title">BibTeX</h2>
+        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+          <i class="fas fa-copy"></i>
+          <span class="copy-text">Copy</span>
+        </button>
+      </div>
+      <pre id="bibtex-code"><code>@inproceedings{yerragolam2026khanakhazana,
+  title     = {KhanaKhazana: A Large-Scale Indian Food Dataset and Fine-Grained Classification Benchmark},
   author    = {Yerragolam, Harith and Jawahar, C. V.},
-  booktitle = {Proceedings of the Indian Conference on Computer Vision,
-               Graphics and Image Processing (ICVGIP)},
+  booktitle = {Proceedings of the Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP)},
   year      = {2026}
 }</code></pre>
+    </div>
   </section>
+  </main>
 
-</main>
 
-<footer>
-  <div class="wrap">
-    Center for Visual Information Technology, IIIT Hyderabad. Supported by MeitY, Government of India, through the NLTM-Bhashini project.
-  </div>
-</footer>
+  <footer class="footer">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This work is supported by MeitY, Government of India, through the NLTM-Bhashini project.
+            </p>
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+              This website is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-<button class="theme" id="theme" aria-label="Toggle colour theme" title="Toggle theme">◐</button>
-<script>
-(function(){
-  var root=document.documentElement, btn=document.getElementById('theme'), key='kk-theme';
-  try{var s=localStorage.getItem(key); if(s) root.setAttribute('data-theme',s);}catch(e){}
-  btn.addEventListener('click',function(){
-    var cur=root.getAttribute('data-theme');
-    if(!cur) cur=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';
-    var next=cur==='dark'?'light':'dark';
-    root.setAttribute('data-theme',next);
-    try{localStorage.setItem(key,next);}catch(e){}
-  });
-})();
-</script>
 </body>
 </html>
