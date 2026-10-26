@@ -3,6 +3,8 @@
 Code and derived artifacts for **"KhanaKhazana: A Large-Scale Indian Food Dataset and Fine-Grained Classification Benchmark"**
 (Harith Yerragolam, C. V. Jawahar; ICVGIP 2026, CVIT, IIIT Hyderabad).
 
+**Project page:** https://harith-y.github.io/KhanaKhazana_ICVGIP2026/
+
 ## What is and is not released
 
 | | Status |
@@ -19,6 +21,7 @@ Write to harith.yerragolam@research.iiit.ac.in (cc jawahar@iiit.ac.in) with your
 
 | Path | Contents |
 |---|---|
+| `Supplementary.pdf` | Supplementary material of the paper (protocol, probes, controlled runs, training-recipe note, tier statistics) |
 | `train.py`, `evaluate.py` | Training (with `--seed`, W&B logging) and test-set evaluation (`--per_class`) |
 | `models/classifier.py` | Backbones: ResNet, EfficientNet, ConvNeXt, MobileNet, DenseNet, ViT, and frozen DINOv3 / Perception Encoder linear probes |
 | `configs/` | One YAML per reported experiment (relative paths) |
@@ -27,7 +30,8 @@ Write to harith.yerragolam@research.iiit.ac.in (cc jawahar@iiit.ac.in) with your
 | `check_manifest_coverage.py` | Reports how many manifest rows resolve to a file; the dataset loader silently skips missing files, so run this before training |
 | `head_mid_tail.py` | Accuracy by training-image frequency group |
 | `evaluate_*.py` | Zero-shot VLM evaluation (CLIP, GPT-4o, Gemini, Qwen2-VL, LLaVA, InternVL, Llama-3.2-Vision); API keys are read from environment variables |
-| `release/` | `merge_candidates.csv` (24 class pairs with at least 35% confusion), `class_frequency_groups.csv` (per-class image count and head / mid / tail group; the folder of unidentified images is excluded), `tiers/` (class list of each evaluated tier) |
+| `docs/` | Project page, served by GitHub Pages from `master` / `docs` |
+| `release/` | `merge_candidates.csv` (24 class pairs with at least 35% confusion), `class_frequency_groups.csv` (per-class image count and head / mid / tail group; the folder of unidentified images is excluded), `per_class_accuracy_popular1700.csv` (per-class accuracy and training-image count of the 1,700-class model), `tiers/` (class list of each tier in Table 7, with provenance in `tiers/README.md`) |
 | `data/dish_popularity.json` | Popularity scores used to rank the first ~600 classes of each tier (the rest are ranked by image count) |
 
 ## Setup
@@ -43,6 +47,8 @@ Place the corpus as `data/proto_crawled_all/<class>/<image>.jpg`.
 # 1. manifest for a tier, from its released class list
 python prepare_data_by_class_list.py --classes_json release/tiers/popular_300cls.json --manifest_dir manifests/popular_300cls
 python check_manifest_coverage.py manifests/popular_300cls          # expect 100%
+# note: 7 of the 300 classes of this tier were built from an earlier corpus snapshot and no longer have images;
+# the script prints a warning and builds the tier without them (see release/tiers/README.md)
 
 # 2. fine-tune a backbone, then score the test split
 python train.py --config configs/config_densenet121_popular_300cls.yaml --seed 0
